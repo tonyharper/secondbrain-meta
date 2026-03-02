@@ -1,5 +1,44 @@
 # Claude Writing Guide for Tony Harper
 
+## File Organization
+
+### Directory Structure
+
+Writing is organized by type:
+
+- `essays/` — Personal essays, reflections, blog-style posts
+- `proposals/` — Technical proposals and 1-pagers
+- `decision-docs/` — Decision documents, option analyses
+- `comms/` — Team communications, announcements, meeting materials
+
+### File Naming
+
+Files use date-first naming: `YYYY-MM-DD-title-in-lowercase-kebab-case.md`
+
+- Use the publication date if known
+- Use `YYYY-MM` if only the month is known (e.g., `2026-03-engineering-review.md`)
+- For meeting-related docs, use the meeting date
+
+### Frontmatter
+
+Every file includes YAML frontmatter:
+
+```yaml
+---
+title: The Full Title
+date: 2026-02-26
+audience: engineers | leadership | general
+status: draft | review | published
+tags: [relevant, topic, tags]
+---
+```
+
+- **title**: The display title of the piece
+- **date**: Publication or meeting date (YYYY-MM-DD)
+- **audience**: Who this is written for — `engineers`, `leadership`, or `general`
+- **status**: Current state — `draft`, `review`, or `published`
+- **tags**: Lowercase, hyphenated topic tags
+
 ## Voice and Tone
 
 Tony writes in a direct, conversational-but-professional register. He uses contractions naturally and doesn't over-formalize. His tone is warm without being soft — he states positions clearly and isn't afraid to be candid about uncertainty, limitations, or disagreement. He's reflective without being sentimental.

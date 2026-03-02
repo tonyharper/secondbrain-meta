@@ -1,3 +1,11 @@
+---
+title: Engineering with AI is Loads of Fun
+date: 2026-02-26
+audience: general
+status: draft
+tags: [ai, career, data-engineering]
+---
+
 # Engineering with AI is Loads of Fun
 
 I started programming when I was eight. My parents got me a VTech Precomputer 1000 and I taught myself BASIC by copying programs out of 3-2-1 Contact magazine. I don't think they knew what they were handing me. I'm not sure I did either.
