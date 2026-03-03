@@ -10,3 +10,6 @@
 
 # Claude Code
 .claude/
+
+# PARA workspace (synced via rclone to Google Drive only)
+para/
