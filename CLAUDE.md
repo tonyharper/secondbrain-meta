@@ -34,3 +34,4 @@ Tony will add past writing as reference material. Beyond that, the following typ
 - When editing, preserve Tony's voice. Fix structure, clarity, and argument — not style.
 - Don't add emoji or exclamation points.
 - Don't create files unless asked. Prefer working within existing documents.
+- **Tasks** — When Tony mentions "tasks" or "my task list," use `tasks.md` in this repo. Only use the Meta Tasks CLI skill when he explicitly asks for it.
