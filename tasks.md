@@ -24,6 +24,7 @@
 - [ ] Take the EEHS Safety Begins with You training
 - [ ] Review prototype of modified funnel on Risk leads dashboard
 - [ ] Write document on controls measurement
+- [ ] Check in with Dor on measurement concerns
 
 ## Waiting
 <!-- Blocked on someone else -->
