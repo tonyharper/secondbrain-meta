@@ -1,0 +1,18 @@
+{
+  "unixname": "tonyharper",
+  "name": "Tony Harper",
+  "title": "Risk Data Engineering Lead",
+  "team": "Risk Data Engineering",
+  "period": {"start": "2026-02-26", "end": "2026-03-05"},
+  "diffs_authored": 0,
+  "diffs_reviewed": 0,
+  "tasks": 0,
+  "posts": 1,
+  "thanks_received": 0,
+  "top_projects": ["Data Access & Privacy Workflows", "Risk DE Dashboard Strategy", "Team Operations & Onboarding"],
+  "highlights": [
+    "Drove the data access friction conversation by resharing and framing a question about AI workflow pain points, accompanied by a preread on Meta-wide friction reduction efforts.",
+    "Authored the Risk DE Dashboard Strategy deck recommending Nest as the preferred platform for its developer experience and AI-assisted building advantages.",
+    "Advanced two parallel privacy initiatives: shifting privacy conformance left into the Dataswarm development workflow and exploring Claude Code skills for automated privacy checks."
+  ]
+}
