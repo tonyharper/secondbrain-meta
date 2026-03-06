@@ -3,7 +3,7 @@
 ## Now
 <!-- What you're actively working on -->
 - [x] Create Workplace group for Risk Analytics AI Enablement
-- [ ] Write shift left doc for Dataswarm
+- [x] Write shift left doc for Dataswarm
 - [x] Learn how to use rclone to sync to Google Drive
 - [x] Work with Mike Fahey to resolve his privacy issue
 - [x] Review doc — [link](https://docs.google.com/document/d/1fwE6soXrY44UfA9jojbJ2qZLaVPQYuxuwc8hc2Txdl0/edit?tab=t.0#heading=h.a48hn2pbbl3d)
