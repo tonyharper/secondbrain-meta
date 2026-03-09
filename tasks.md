@@ -2,7 +2,6 @@
 
 ## Now
 <!-- What you're actively working on -->
-- [ ] Check in with Dor on measurement concerns
 - [ ] Write document on controls measurement
 - [x] Review IG Analytics Gender doc — [doc](https://docs.google.com/document/d/1YEm9H-F6x-2mHvlDviecfsiKWK-UBeqWahKzEJVadP8/edit?tab=t.0#heading=h.ka718qjnxp7e)
 
@@ -10,6 +9,7 @@
 ## Next
 <!-- Queue — things you've committed to but haven't started -->
 
+- [ ] Check in with Dor on measurement concerns
 - [ ] Write up worries about what we're missing in evals
 - [x] Get alignment on Risk DE Dashboard Strategy — [doc](https://docs.google.com/document/d/1yzXQDHjp9_CuqxnW9DBr-0QWyq62yw9nQe7Civg5ODM/edit)
 - [x] Work with Selig Davis on post about common warehouse access issues / new patterns
