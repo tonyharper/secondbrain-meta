@@ -2,17 +2,9 @@
 
 ## Now
 <!-- What you're actively working on -->
-- [x] Create Workplace group for Risk Analytics AI Enablement
-- [x] Write shift left doc for Dataswarm
-- [x] Learn how to use rclone to sync to Google Drive
-- [x] Work with Mike Fahey to resolve his privacy issue
-- [x] Review doc — [link](https://docs.google.com/document/d/1fwE6soXrY44UfA9jojbJ2qZLaVPQYuxuwc8hc2Txdl0/edit?tab=t.0#heading=h.a48hn2pbbl3d)
-- [x] Talk to Jason and Ilic about AI nativeness measurement
-- [x] Review AI Logging Automation doc — [link](https://docs.google.com/document/d/1JMkAStXIoy5X5bALWdHSiy4Ah2TIoWS-UA_sphXaQco/edit?tab=t.0#heading=h.3s36rdswk9iu)
-- [x] Send Peter Pira documentation on my four projects
-- [x] Pre-read AI for SIN launch plan
-- [x] Leave comments in the Areas pre-read about Beehive
-- [x] Write post on Risk Data AI Enablement War Room — [doc](https://docs.google.com/document/d/1T6usv6GaJ06p0GxCrjY4zf4Qr2a7vtU-54onrF-KzsU/edit?tab=t.0#heading=h.7b9zwp4n2384)
+- [ ] Check in with Dor on measurement concerns
+- [ ] Write document on controls measurement
+- [x] Review IG Analytics Gender doc — [doc](https://docs.google.com/document/d/1YEm9H-F6x-2mHvlDviecfsiKWK-UBeqWahKzEJVadP8/edit?tab=t.0#heading=h.ka718qjnxp7e)
 
 
 ## Next
@@ -23,8 +15,6 @@
 - [x] Work with Selig Davis on post about common warehouse access issues / new patterns
 - [ ] Take the EEHS Safety Begins with You training
 - [ ] Review prototype of modified funnel on Risk leads dashboard
-- [ ] Write document on controls measurement
-- [ ] Check in with Dor on measurement concerns
 
 ## Waiting
 <!-- Blocked on someone else -->
