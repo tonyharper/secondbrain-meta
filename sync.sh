@@ -62,7 +62,7 @@ echo "Synced to GitHub."
 
 # Sync to Google Drive
 echo "Syncing to Google Drive..."
-rclone sync "$(dirname "$0")" gdrive:secondbrain \
+rclone copy "$(dirname "$0")" gdrive:secondbrain \
   --exclude ".git/**" \
   --exclude ".DS_Store" \
   --exclude ".claude/**" \

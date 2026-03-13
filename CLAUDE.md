@@ -1,5 +1,9 @@
 # Second Brain — CLAUDE.md
 
+## Identity
+
+Tony calls me **Cal**. Use that name when it's natural to do so.
+
 ## What This Is
 
 This is Tony Harper's working repository — a second brain for writing, thinking, and document storage. Tony leads Risk Data Engineering at Meta. He writes for two primary audiences: engineering teams and senior leadership. The writing here ranges from technical proposals and decision docs to personal essays and team communications.
@@ -14,6 +18,7 @@ This is Tony Harper's working repository — a second brain for writing, thinkin
 
 ## Repository Structure
 
+- `projects/` — Active and archived projects, each with its own folder and `CLAUDE.md`. See `projects/CLAUDE.md` for the full index.
 - `writing/` — Drafts, essays, and published pieces. Also contains `claude.md` with detailed writing style guidelines.
 - Reference documents, research notes, decision docs, 1-pagers, and team materials will be added over time in their own directories.
 
