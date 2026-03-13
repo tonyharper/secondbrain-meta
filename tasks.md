@@ -3,24 +3,25 @@
 ## Now
 <!-- What you're actively working on -->
 - [ ] Revise controls document to match Connie's plan
-- [ ] Update Risk DE dashboard plan, incorporate comments
-- [x] Write revised Analytics Champions and SME group charter
-- [ ] Understand Singiri's discussion about Brady's eval measurement vs ours
 - [ ] Talk to CPP about how we can get more looped in
 
 
 ## Next
 <!-- Queue — things you've committed to but haven't started -->
 
-- [ ] Write up worries about what we're missing in evals
+- [ ] Post Risk DE dashboard strategy
 - [ ] Take the EEHS Safety Begins with You training
 
 ## Waiting
 <!-- Blocked on someone else -->
+- [ ] Write up worries about what we're missing in evals
 - [ ] Review prototype of modified funnel on Risk leads dashboard
 
 ## Done
 <!-- Move completed tasks here. Clear periodically. -->
+- [x] Understand Singiri's discussion about Brady's eval measurement vs ours
+- [x] Update Risk DE dashboard plan, incorporate comments
+- [x] Write revised Analytics Champions and SME group charter
 - [x] Review Lara's governance plan
 - [x] Check in with Dor on measurement concerns
 - [x] Talk to Singiri about eval measurement showing us at 0%
