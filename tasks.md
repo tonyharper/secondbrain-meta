@@ -3,14 +3,12 @@
 ## Now
 <!-- What you're actively working on -->
 - [ ] Revise controls document to match Connie's plan
-- [ ] Talk to CPP about how we can get more looped in
 
 
 ## Next
 <!-- Queue — things you've committed to but haven't started -->
+- [ ] Find out if we can add our evals to AEM
 
-- [ ] Post Risk DE dashboard strategy
-- [ ] Take the EEHS Safety Begins with You training
 
 ## Waiting
 <!-- Blocked on someone else -->
@@ -19,6 +17,9 @@
 
 ## Done
 <!-- Move completed tasks here. Clear periodically. -->
+- [x] Talk to CPP about how we can get more looped in
+- [x] Take the EEHS Safety Begins with You training
+- [x] Post Risk DE dashboard strategy
 - [x] Understand Singiri's discussion about Brady's eval measurement vs ours
 - [x] Update Risk DE dashboard plan, incorporate comments
 - [x] Write revised Analytics Champions and SME group charter
