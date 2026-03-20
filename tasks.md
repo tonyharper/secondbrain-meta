@@ -7,16 +7,17 @@
 
 ## Next
 <!-- Queue — things you've committed to but haven't started -->
-- [ ] Find out if we can add our evals to AEM
 
 
 ## Waiting
 <!-- Blocked on someone else -->
-- [ ] Write up worries about what we're missing in evals
 - [ ] Review prototype of modified funnel on Risk leads dashboard
 
 ## Done
 <!-- Move completed tasks here. Clear periodically. -->
+- [x] Make post on building a sense of safety
+- [x] Find out if we can add our evals to AEM
+- [x] Write up worries about what we're missing in evals
 - [x] Talk to CPP about how we can get more looped in
 - [x] Take the EEHS Safety Begins with You training
 - [x] Post Risk DE dashboard strategy

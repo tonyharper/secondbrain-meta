@@ -72,6 +72,8 @@ He frames career and personal growth as a journey of learning what he actually w
 
 He connects personal experience to professional insight naturally — his childhood programming connects to his current AI enthusiasm; his data warehouse training connects to his views on AI readiness.
 
+He's also willing to name the limits of his own perspective — acknowledging when his framing doesn't fully apply to people in different circumstances, without being performative about it.
+
 ## Technical Writing
 
 - Always grounds technical recommendations in the "why" — the problem statement and constraints come before the solution.
