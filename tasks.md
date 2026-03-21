@@ -2,7 +2,6 @@
 
 ## Now
 <!-- What you're actively working on -->
-- [ ] Revise controls document to match Connie's plan
 
 
 ## Next
@@ -11,7 +10,9 @@
 
 ## Waiting
 <!-- Blocked on someone else -->
+- [ ] Revise controls document to match Connie's plan
 - [ ] Review prototype of modified funnel on Risk leads dashboard
+- [ ] Review risk forecast on Risk leads dashboard
 
 ## Done
 <!-- Move completed tasks here. Clear periodically. -->
