@@ -2,10 +2,13 @@
 
 ## Now
 <!-- What you're actively working on -->
-
+- [ ] Write thank you to the war room crew and acknowledge tooling gaps
+- [ ] Establish feedback loops for semantic model war room
+- [ ] Start thread about RBAC for semantic model core crew
 
 ## Next
 <!-- Queue — things you've committed to but haven't started -->
+- [ ] Create measurement architecture diagram for FRAPS
 
 
 ## Waiting
