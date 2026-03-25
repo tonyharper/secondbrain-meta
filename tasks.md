@@ -2,8 +2,6 @@
 
 ## Now
 <!-- What you're actively working on -->
-- [ ] Write thank you to the war room crew and acknowledge tooling gaps
-- [ ] Establish feedback loops for semantic model war room
 - [ ] Start thread about RBAC for semantic model core crew
 
 ## Next
@@ -19,6 +17,8 @@
 
 ## Done
 <!-- Move completed tasks here. Clear periodically. -->
+- [x] Write thank you to the war room crew and acknowledge tooling gaps
+- [x] Establish feedback loops for semantic model war room
 - [x] Make post on building a sense of safety
 - [x] Find out if we can add our evals to AEM
 - [x] Write up worries about what we're missing in evals
