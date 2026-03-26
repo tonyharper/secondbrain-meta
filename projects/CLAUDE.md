@@ -12,6 +12,7 @@ Tony Harper's active and archived projects. Each project has its own folder with
 | [data_access_friction](data_access_friction/CLAUDE.md) | Reducing data access friction via SPARE initiative |
 | [shift_left](shift_left/CLAUDE.md) | Shifting privacy requirements into the Dataswarm development environment via Claude skills |
 | [analytics_champions](analytics_champions/CLAUDE.md) | Analytics Champion role in the Analytics/DI collaboration — SME groups, prioritization, and cross-org advocacy |
+| [data_risk_analytics_lead](data_risk_analytics_lead/CLAUDE.md) | Analytics lead for Data Risk group — leading DEs and DSs providing insights across data-related risk areas |
 
 ## Archived Projects
 
