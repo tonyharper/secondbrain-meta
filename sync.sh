@@ -61,11 +61,7 @@ echo ""
 echo "Synced to GitHub."
 
 # Sync to Google Drive
+GDRIVE="$HOME/Library/CloudStorage/GoogleDrive-tonyharper@meta.com/My Drive/cal"
 echo "Syncing to Google Drive..."
-rclone copy "$(dirname "$0")" gdrive:secondbrain \
-  --exclude ".git/**" \
-  --exclude ".DS_Store" \
-  --exclude ".claude/**" \
-  --progress
-
+rsync -av --delete --exclude='.git/' "$(dirname "$0")/" "$GDRIVE/"
 echo "Synced to Google Drive."
