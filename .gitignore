@@ -11,5 +11,23 @@
 # Claude Code
 .claude/
 
-# PARA workspace (synced via rclone to Google Drive only)
-para/
+# Local private — never pushed
+private/
+
+# Old system archive — keep for 30d but already backed up to Drive
+# uncomment to ignore if it gets too large, but keep for migration month
+# _archive_v1_2026_07/
+
+# Scratch
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Personal analysis file — keep but not needed long term
+# personal_second_brain_analysis.md

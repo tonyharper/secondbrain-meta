@@ -1,0 +1,189 @@
+# Context Sync Configuration
+# Tracked authors, keywords, and workplace groups per project
+# Used by sync_prompt.md to discover new and updated documents
+
+last_sync: "2026-04-02"
+
+projects:
+  risk_data_ai_enablement:
+    keywords:
+      - semantic models
+      - repo context
+      - evals
+      - AI readiness
+      - analytics agent
+      - datamate
+      - devmate
+      - AI adoption
+      - eWAU
+      - domain coverage
+    workplace_groups:
+      - "992063232674504"   # Risk Analytics
+      - "1991251848365266"  # Semantic Models
+    tracked_authors:
+      - {name: "Chris Ventura", id: "691071510"}
+      - {name: "Sunil Rathode", id: "100000670111923"}
+      - {name: "Swetha Singiri", id: "100000868400273"}
+      - {name: "Lakshmi Chinta", id: "655841950"}
+      - {name: "Kyle Stein", id: "1555187211819929"}
+      - {name: "Ashish Mangaj", id: "1143676714"}
+      - {name: "Stephanie Yee", id: "1606383780323972"}
+      - {name: "Oliver Pell", id: "222401486"}
+      - {name: "Abhishek Gulati", id: "100000533729219"}
+      - {name: "Arash Nikkar", id: "508574157"}
+
+  risk_leads_dashboard:
+    keywords:
+      - compliance cost
+      - cost of compliance
+      - risk leads
+      - risk health dashboard
+      - privacy cost
+      - headcount
+      - opex
+      - control maturity
+      - federated
+    workplace_groups: []
+    tracked_authors:
+      - {name: "Sunil Rathode", id: "100000670111923"}
+      - {name: "Stephanie Yee", id: "1606383780323972"}
+      - {name: "Oliver Pell", id: "222401486"}
+      - {name: "Abhishek Gulati", id: "100000533729219"}
+      - {name: "Arash Nikkar", id: "508574157"}
+      - {name: "Chris Ventura", id: "691071510"}
+      - {name: "Bede McCarthy", id: "875515656"}
+      - {name: "Jackie Zajac", id: "5700004"}
+      - {name: "Dave Nolan", id: "620740964"}
+      - {name: "Anastasia Gandrik", id: "607531641"}
+
+  risk_de_org_management:
+    keywords:
+      - org structure
+      - performance
+      - hiring
+      - PSC
+      - AI expectations
+      - Risk DE
+      - direct reports
+    workplace_groups:
+      - "197295836397052"   # Risk DE team
+      - "1586087708256595"  # Hiring
+    tracked_authors:
+      - {name: "Stephanie Yee", id: "1606383780323972"}
+      - {name: "Anthony O'Sullivan", id: "1641441773"}
+      - {name: "Anastasia Gandrik", id: "607531641"}
+      - {name: "Fernando Bartolo", id: "100048211123550"}
+      - {name: "Kanthi Narayanasetty", id: "798052001"}
+      - {name: "Oliver Pell", id: "222401486"}
+      - {name: "Chris Ventura", id: "691071510"}
+      - {name: "Swetha Singiri", id: "100000868400273"}
+      - {name: "Kyle Stein", id: "1555187211819929"}
+      - {name: "Sunil Rathode", id: "100000670111923"}
+
+  data_access_friction:
+    keywords:
+      - FRAPS
+      - SPARE
+      - agent friction
+      - interruption rate
+      - UBAR
+      - security traces
+      - DIPS
+      - data access
+      - AccessMate
+      - measurement plan
+    workplace_groups:
+      - "266626206077195"   # AIDRE/SPARE
+      - "1948585412696066"  # FRAPS
+      - "1426023281530911"  # DW friction
+    tracked_authors:
+      - {name: "Aaron Morris", id: "1394100054"}
+      - {name: "Nick Castro", id: "1403369760938835"}
+      - {name: "Ben Krull", id: "769274817"}
+      - {name: "Dan May", id: "734079519"}
+      - {name: "Wenlong Dong", id: "779964133"}
+      - {name: "Tola Dalton", id: "735084942216572"}
+      - {name: "Anisha Patel", id: "641246675"}
+      - {name: "Komal Mangtani", id: "782063911"}
+      - {name: "Stephanie Yee", id: "1606383780323972"}
+      - {name: "Abhishek Gulati", id: "100000533729219"}
+
+  shift_left:
+    keywords:
+      - shift left
+      - privacy conformance
+      - dataswarm
+      - tester
+      - rich types
+      - UPM datasets
+      - data understanding
+      - Claude skills
+      - real-time UPP
+    workplace_groups:
+      - "803837402998210"   # Dataswarm agentic
+      - "1380785639188244"  # Shift-Left
+    tracked_authors:
+      - {name: "Colin Glaes", id: "1352314665"}
+      - {name: "Oliver Pell", id: "222401486"}
+      - {name: "Yiannis Papagiannis", id: "100000528710277"}
+      - {name: "Aleksandar Ilic", id: "567419810"}
+      - {name: "Evan Calzolaio", id: "100008110744817"}
+      - {name: "Chetan Bhat", id: "100049671531221"}
+      - {name: "Stephanie Yee", id: "1606383780323972"}
+      - {name: "Chris Ventura", id: "691071510"}
+      - {name: "Sunil Rathode", id: "100000670111923"}
+      - {name: "Kyle Stein", id: "1555187211819929"}
+
+  analytics_champions:
+    keywords:
+      - analytics champions
+      - SME groups
+      - DI collaboration
+      - steerco
+      - papercuts
+      - metric trust
+      - data processing
+      - data consumption
+      - AI for analytics
+    workplace_groups:
+      - "126250746935863"
+      - "391158253390744"
+      - "7237407899643906"
+      - "1225687455626858"
+    tracked_authors:
+      - {name: "Briton Zurcher", id: "1469306467"}
+      - {name: "Narendra Kambam", id: "686820448"}
+      - {name: "Lana Millson", id: "1067001112"}
+      - {name: "Vibha Virmani", id: "1108749336"}
+      - {name: "Justin Gourley", id: "100013641529392"}
+      - {name: "Oliver Pell", id: "222401486"}
+      - {name: "Stephanie Yee", id: "1606383780323972"}
+      - {name: "Arash Nikkar", id: "508574157"}
+      - {name: "Chris Ventura", id: "691071510"}
+      - {name: "Abhishek Gulati", id: "100000533729219"}
+
+  data_risk_analytics_lead:
+    keywords:
+      - data risk
+      - user risk
+      - established risk
+      - restructuring
+      - risk groups
+      - flatter operating model
+      - control maturity
+      - analytics mapping
+      - risk review sprint
+    workplace_groups:
+      - "725315870524474"   # Risk org
+      - "992063232674504"   # Risk Analytics
+    tracked_authors:
+      - {name: "Oliver Pell", id: "222401486"}
+      - {name: "Arash Nikkar", id: "508574157"}
+      - {name: "Stephanie Yee", id: "1606383780323972"}
+      - {name: "Jackie Zajac", id: "5700004"}
+      - {name: "Bede McCarthy", id: "875515656"}
+      - {name: "Dave Nolan", id: "620740964"}
+      - {name: "Abhishek Gulati", id: "100000533729219"}
+      - {name: "Anastasia Gandrik", id: "607531641"}
+      - {name: "Anthony O'Sullivan", id: "1641441773"}
+      - {name: "Chris Ventura", id: "691071510"}

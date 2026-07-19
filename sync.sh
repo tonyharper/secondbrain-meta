@@ -1,67 +1,35 @@
 #!/bin/bash
 set -e
-
 cd "$(dirname "$0")"
 
-# Check for changes
-if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
-  echo "Nothing to sync — working tree is clean."
-  exit 0
+# Like miles/ — low friction git backup + mobile via GitHub web
+# Commit message auto-generated from changed top-level folders
+
+# Get changed folders from staged, unstaged, untracked
+CHANGED=$(git diff --name-only --diff-filter=AMDR --cached; git diff --name-only --diff-filter=AMDR; git ls-files --others --exclude-standard | cut -d'/' -f1 | sort -u)
+# Extract top-level folder names
+FOLDERS=$(echo "$CHANGED" | cut -d'/' -f1 | sort -u | grep -v '^\.' | grep -v '^$' | tr '\n' ',' | sed 's/,$//' | sed 's/,/, /g')
+
+if [ -z "$FOLDERS" ]; then
+  # Check if anything to commit at all
+  if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+    echo "No changes to sync."
+    exit 0
+  fi
+  FOLDERS="misc"
 fi
 
-# Build commit message from the diff summary
-msg=""
-
-# Deleted files
-deleted=$(git diff --name-only --diff-filter=D)
-if [ -n "$deleted" ]; then
-  msg+="Remove $(echo "$deleted" | wc -l | tr -d ' ') file(s): $(echo "$deleted" | xargs -I{} basename {} | paste -sd ', ' -)"
-fi
-
-# Modified files
-modified=$(git diff --name-only --diff-filter=M)
-if [ -n "$modified" ]; then
-  [ -n "$msg" ] && msg+="; "
-  msg+="Update $(echo "$modified" | xargs -I{} basename {} | paste -sd ', ' -)"
-fi
-
-# New untracked files
-added=$(git ls-files --others --exclude-standard)
-if [ -n "$added" ]; then
-  [ -n "$msg" ] && msg+="; "
-  msg+="Add $(echo "$added" | xargs -I{} basename {} | paste -sd ', ' -)"
-fi
-
-# Staged but not yet covered (edge case: pre-staged changes)
-staged_new=$(git diff --cached --name-only --diff-filter=A 2>/dev/null)
-if [ -n "$staged_new" ]; then
-  [ -n "$msg" ] && msg+="; "
-  msg+="Add $(echo "$staged_new" | xargs -I{} basename {} | paste -sd ', ' -)"
-fi
-
-staged_mod=$(git diff --cached --name-only --diff-filter=M 2>/dev/null)
-if [ -n "$staged_mod" ]; then
-  [ -n "$msg" ] && msg+="; "
-  msg+="Update $(echo "$staged_mod" | xargs -I{} basename {} | paste -sd ', ' -)"
-fi
-
-# Fallback
-if [ -z "$msg" ]; then
-  msg="Sync updates"
-fi
-
-echo "Commit message: $msg"
-echo ""
-
+echo "Changed folders: $FOLDERS"
+echo "Staging all changes..."
 git add -A
-git commit -m "$msg"
-git push
 
-echo ""
-echo "Synced to GitHub."
+echo "Committing: Update $FOLDERS"
+git commit -m "Update $FOLDERS" || echo "Nothing to commit"
 
-# Sync to Google Drive
-GDRIVE="$HOME/Library/CloudStorage/GoogleDrive-tonyharper@meta.com/My Drive/cal"
-echo "Syncing to Google Drive..."
-rsync -av --delete --exclude='.git/' "$(dirname "$0")/" "$GDRIVE/"
-echo "Synced to Google Drive."
+echo "Pulling --rebase..."
+git pull --rebase || echo "Pull failed or no upstream"
+
+echo "Pushing..."
+git push || echo "Push failed"
+
+echo "Done."

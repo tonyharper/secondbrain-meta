@@ -1,0 +1,303 @@
+# Sync Manifest — tracks all cached documents
+# Each entry maps a source URL to its local file and project
+# last_checked is the date the doc was last fetched/verified
+# type: google_doc | google_sheet | workplace_post | google_slides | local_only
+
+docs:
+  # === risk_data_ai_enablement ===
+  - url: "https://docs.google.com/document/d/1sSi-RoizS0LoDaaFBU_-w8KYmo8NeX00wP-QJrS3f_s/edit"
+    project: risk_data_ai_enablement
+    file: docs/measurement_plan.md
+    title: "Risk DE 2026 AI Solutions Strategy"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1l0ZzOslLNLVogWlGCZoEJh3lakMpbZ2nV8ETsaNfsp4/edit"
+    project: risk_data_ai_enablement
+    file: docs/ai_measurement_roadmap.md
+    title: "AI Measurement Roadmap"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://fb.workplace.com/groups/992063232674504/permalink/1391829086031248/"
+    project: risk_data_ai_enablement
+    file: docs/launch_post.md
+    title: "Risk Data AI Enablement Launch Post"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  # === risk_leads_dashboard ===
+  - url: "https://docs.google.com/document/d/1YWbJwk-bW3iQlYdqHFAA6jy3pPxxoKjzCDysoSeQDqc/edit"
+    project: risk_leads_dashboard
+    file: docs/dashboard_definition.md
+    title: "Risk Leads Dashboard Definition"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1xZbox7sqf5OtuVyE0vmWdk2UPquJ3shJ6d_Y-WF5cTU"
+    project: risk_leads_dashboard
+    file: docs/risk_health_dashboard_rfc.md
+    title: "Risk Health Dashboard RFC"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1fuvaDL0KaxzWkQsAw9UKa1s1pD1Ugt4WvdE6zPjkUoc"
+    project: risk_leads_dashboard
+    file: docs/dashboard_proposal.md
+    title: "Risk Leads Dashboard Proposal"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  # === risk_de_org_management ===
+  - url: "https://docs.google.com/document/d/1TJuFIoVGpX6GlbmCtMRQK4chnQh7LY6mwdnFDiZ_Sn0"
+    project: risk_de_org_management
+    file: docs/risk_de_organization_doc.md
+    title: "Risk DE Organization Doc"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1ZwROQEzdJkEo42ulusPKXU5F5sA9pnxc2Z9E6GhIpQk"
+    project: risk_de_org_management
+    file: docs/onboarding_doc_stephanie.md
+    title: "Onboarding Doc for Stephanie"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://fb.workplace.com/groups/197295836397052/permalink/732392712887359/"
+    project: risk_de_org_management
+    file: docs/org_update_jan_2026.md
+    title: "Risk DE Org Update - Jan 2026"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  - url: "https://fb.workplace.com/groups/197295836397052/permalink/582801421179823/"
+    project: risk_de_org_management
+    file: docs/psc_self_review_templates.md
+    title: "PSC Self-Review Templates"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  - url: "https://fb.workplace.com/groups/197295836397052/permalink/705563622236935/"
+    project: risk_de_org_management
+    file: docs/2025_performance_ai_impact.md
+    title: "2025 Performance & AI Impact"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  - url: "https://fb.workplace.com/groups/1586087708256595/permalink/2695707357294619/"
+    project: risk_de_org_management
+    file: docs/hiring_post_de_manager.md
+    title: "Hiring Post - DE Manager Privacy Areas"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  # === data_access_friction ===
+  - url: "https://docs.google.com/document/d/1iHseo6oWQCXUBlc3B5b6fhUd5U3sVndwCv3Y3m8vgLA/edit"
+    project: data_access_friction
+    file: docs/fraps_measurement_plan.md
+    title: "FRAPS Measurement Plan"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1YhSddiEYoDqfVVb52xnjDfZBD226mFlH_TbTBjKW8b4/edit"
+    project: data_access_friction
+    file: docs/fraps_measurement_inventory.md
+    title: "FRAPS Measurement Inventory"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1N5nKaNhcafg4kaxpPZdFNmZBEM5qyzFIPmsNJYs93TQ/edit"
+    project: data_access_friction
+    file: docs/fraps_canonical_okrs.md
+    title: "Canonical FRAPS OKRs"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/13kB1O6D_HQZhZaTcYJ9EEzInXbpEihVcW-QCM0K1wa0/edit"
+    project: data_access_friction
+    file: docs/brady_preread_2026_03_03.md
+    title: "Data Access Friction Review - Brady Preread"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://fb.workplace.com/groups/266626206077195/permalink/853367510736392/"
+    project: data_access_friction
+    file: docs/aidre_spare_impact_post.md
+    title: "AIDRE & SPARE Impact Post"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  - url: "https://docs.google.com/document/d/1Srade6Bh7KEJ4-QmDC3tEfdR5Us4j2Jxiq8ww8iEyoQ/edit"
+    project: data_access_friction
+    file: docs/fraps_weekly_update_2026_03_26.md
+    title: "FRAPS Weekly Update 2026-03-26"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1xwyt3EhbRQFFGSz4py1zcvdJptXsWriQAQwN1bFW7k8/edit"
+    project: data_access_friction
+    file: docs/fraps_ws1_sync_2026_03_26.md
+    title: "FRAPS WS1 Sync 2026-03-26"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1xfiBb1Oakrvsbp_VeVUZ7YBx4aEFA8yU4VWGXNB18JM"
+    project: data_access_friction
+    file: docs/fraps_ws1_sync_2026_03_31_ai_notes.md
+    title: "FRAPS WS1 Sync 2026-03-31 AI Notes"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1bDseWm3eMONKGtgun-m7NzsVYOY3TKhnSxn9JWRewbg"
+    project: data_access_friction
+    file: docs/fraps_measurement_sync_2026_04_01.md
+    title: "FRAPS Measurement Sync 2026-04-01"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/191yiFjSvOzvUiwcp5hpiZ0bj0hPBmrNe1mWdxeVhkHI/edit"
+    project: data_access_friction
+    file: docs/fraps_ws1_sync_2026_04_02.md
+    title: "FRAPS WS1 Sync 2026-04-02"
+    type: google_doc
+    last_checked: "2026-04-03"
+
+  - url: "https://fb.workplace.com/groups/1948585412696066/permalink/1960331394854801/"
+    project: data_access_friction
+    file: docs/fraps_operating_rhythm.md
+    title: "FRAPS Operating Rhythm"
+    type: workplace_post
+    last_checked: "2026-04-03"
+
+  # === shift_left ===
+  - url: "https://docs.google.com/document/d/15mku2Nu6gqeclzYi1qpK22f3O-FfUHdZkjJSx67Vmvo/"
+    project: shift_left
+    file: docs/rtup_real_time_unified_prediction.md
+    title: "RTUP — Real Time Unified Prediction"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1y0KWZJ_5uE_E4-9FQEmaU5wNG3qG5he5NlKfnr-pcho/"
+    project: shift_left
+    file: docs/realtime_upp_rich_type_suggestions.md
+    title: "Realtime UPP Rich Type Suggestions"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://fb.workplace.com/groups/1380785639188244/permalink/1737163660217105/"
+    project: shift_left
+    file: docs/shift_left_h1_2025_post.md
+    title: "Shift-Left for Data Understanding H1 2025"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  - url: "https://fb.workplace.com/groups/803837402998210/permalink/30652942740994282/"
+    project: shift_left
+    file: docs/making_dataswarm_autonomous_post.md
+    title: "Making Dataswarm Development Autonomous with Claude"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  # === analytics_champions ===
+  - url: "https://docs.google.com/document/d/1hbyxo2eFU83BkbSlY6n6dPgg_LVvgzdwTJb9DHDBFYU/edit"
+    project: analytics_champions
+    file: docs/running_meeting_agenda.md
+    title: "Running Meeting Agenda"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1lRMzb0Gwprnyq8VZH5zNRtZK_GxzvmryqgLpaZMQE6g/edit"
+    project: analytics_champions
+    file: docs/champion_expectations.md
+    title: "Champion Expectations"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1L6B2dr3Wi8uIggDN1fSNpel7t2WUy5T6uczZygd95Uc/edit"
+    project: analytics_champions
+    file: docs/collaboration_charter.md
+    title: "Collaboration Charter"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/spreadsheets/d/1R2BNPbdPjHwIAOS7ya-EtQcVcRg-w6abQFI901wiQJE/edit"
+    project: analytics_champions
+    file: docs/sme_groups_tracker.md
+    title: "SME Groups Tracker"
+    type: google_sheet
+    last_checked: "2026-04-02"
+
+  - url: "https://docs.google.com/document/d/1vkWnKbOu3sUEx6yfrrJSTL4iay2KbnTk4EoGyaVX-Hc"
+    project: analytics_champions
+    file: docs/analytics_champions_2026_04_01_transcript.md
+    title: "Analytics Champions Meeting Transcript 2026-04-01"
+    type: google_doc
+    last_checked: "2026-04-02"
+
+  # === data_risk_analytics_lead ===
+  - url: "https://fb.workplace.com/groups/725315870524474/posts/864245409964852"
+    project: data_risk_analytics_lead
+    file: docs/olivers_restructuring_post.md
+    title: "Oliver's Restructuring Post"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  - url: "https://fb.workplace.com/groups/992063232674504/posts/1418868946660595"
+    project: data_risk_analytics_lead
+    file: docs/stephanies_analytics_mapping_post.md
+    title: "Stephanie's Analytics Mapping Post"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  - url: "https://docs.google.com/document/d/1CSVyZi6zdY22Jtx4lBn_-FlLzFQ5WN3LNYqkhOwc8cE/edit"
+    project: data_risk_analytics_lead
+    file: docs/point_people_weekly_2026_04_02.md
+    title: "Point-People Weekly — 2026-04-02"
+    type: google_doc
+    last_checked: "2026-04-03"
+
+  # === _archive/risk_data_sevs ===
+  - url: "https://fb.workplace.com/groups/992063232674504/permalink/1185113690036123/"
+    project: _archive/risk_data_sevs
+    file: docs/sev_process_announcement.md
+    title: "SEV Process Announcement"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  - url: "https://fb.workplace.com/groups/1167810663557228/permalink/2576711872667093/"
+    project: _archive/risk_data_sevs
+    file: docs/launch_post.md
+    title: "Risk Data SEVs Launch Post"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  # === _archive/rid_adoption ===
+  - url: "https://fb.workplace.com/groups/2088102991377052/permalink/2742683445919000/"
+    project: _archive/rid_adoption
+    file: docs/h2_24_reflection_post.md
+    title: "H2 24 Reflection Post"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  # === _archive/ogre_migration ===
+  - url: "https://fb.workplace.com/groups/1167810663557228/permalink/2528290264175921/"
+    project: _archive/ogre_migration
+    file: docs/sev_s512065_post.md
+    title: "SEV S512065 Post"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  # === _archive/dashboard_quality ===
+  - url: "https://fb.workplace.com/groups/197295836397052/permalink/458302390296394/"
+    project: _archive/dashboard_quality
+    file: docs/raising_the_bar_post.md
+    title: "Raising the Bar Post"
+    type: workplace_post
+    last_checked: "2026-03-31"
+
+  - url: "https://fb.workplace.com/groups/197295836397052/permalink/582100384583260/"
+    project: _archive/dashboard_quality
+    file: docs/h2_dashboard_goals.md
+    title: "H2 Dashboard Goals"
+    type: workplace_post
+    last_checked: "2026-03-31"
