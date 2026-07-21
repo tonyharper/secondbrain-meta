@@ -1,0 +1,6 @@
+Source: https://docs.google.com/document/d/1iSxSzXVE4HI_bi__7r9bADtFNmC8gityFhzyXft2MhY/edit?tab=t.0#heading=h.eyqogg69vwdh
+Status: FETCHED 2026-07-21 — ghtml 7KB /tmp/doc2_full.html, md 57 lines /tmp/doc2_full.md
+Project: risk_goaling_h2_2026
+Owner: Stephanie Yee, June 15 2026 discussion
+Summary: Risk Org North Star strawman, mission "Instill responsible practices. Enable Innovation." Framework: Instill = meet obligations (defensibility & resilience, external assessment, realized risk SEVs) + protect users (actual risk PRA, user trust Parental Alignment); Enable innovation = holistic cost (product opportunity cost, cost of compliance $/EY/time/tokens) + efficiency (PG experience frictionless simple reviews / efficient escalations / timely white-glove, Team Defense efficiency systematized share). Appendix distinguishes North Star (5+ year stable, whole picture) vs H2 priority metrics (one half, subset). Implications for Data Risk: 7 positions = defensibility, % effective/self-evidencing/SEV = realized risk, cost USD/PG cost/iRev = cost, SINs under SLO/Minimal LaMas/Unnecessary SIN = PG experience, agentic-ready/Agentic Share = Team Defense efficiency.
+Doc location summary: projects/risk_goaling_h2_2026/docs/north_star_discussion.md

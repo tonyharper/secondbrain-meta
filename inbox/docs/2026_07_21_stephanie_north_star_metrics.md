@@ -1,0 +1,6 @@
+Source: https://fb.workplace.com/groups/992063232674504/posts/1480755657138590
+Status: FETCHED via knowledge_load 2026-07-21 — 35 reactions dashboard risk-leads-dashboard.nest.x2p.facebook.net
+Project: risk_goaling_h2_2026
+Owner: Stephanie Yee June 8 2026
+Summary: V0.1 NSMs small set stable org-level mission Instill responsible practices Enable innovation Holistic Durable Mission-level sitting above team-level. Mapping: NSM1 Meet obligations ship goals % obligations covered in development, NSM2 Parental Alignment IG US 37.3% May28, NSM3 white-glove TBD, NSM4.1 % Minimal volume Risk Review 48% May19 goal 90% compliance automatically 2027, NSM4.2 median Heavy 11.1d Jun2, NSM4.3 adoption TBD NSM4.4 utility TBD Guardrail 4.5 Missed Risk 5.44% May7 Guardrail 4.6 self-evidenced RQs effective 29.6% Jun2, Cross-cutting NSM5 Counter Residual AI/agent privacy SEV vol 44 L28D Jun2 NSM6 1.224% interruptions L28 Jun1 NSM7 Cost $3.7B Apr17 90% people half outside Risk NSM8 Intercepted TBD. Still need build H2 list meeting obligations white-glove adoption utility residual risk intercepted. Tracking Dashboard Monthly Review Owner Risk Analytics. Tier hierarchy NSM org-wide > Tier1 group/team half > Tier2 team supporting diagnostic.
+Doc summary: projects/risk_goaling_h2_2026/docs/north_star_discussion.md + tier1_metrics_summary.md Appendix

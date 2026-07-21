@@ -1,0 +1,6 @@
+Source: https://fb.workplace.com/groups/1482448799957252/permalink/1524006602468138/
+Status: FETCHED via knowledge_load 2026-07-21 — 38 reactions
+Project: risk_goaling_h2_2026
+Owner: Oliver Pell June 4 2026
+Summary: P0 Keep Company Running BAU fast good risk decisions SIN SLA controls green SEVs MAPs confident BAU before strategic, P1 Robust Global Controls Beehive DOJ Bulk Data Rule Cloud global yellow→green robust to agents embedding awareness guidance redesigning controls agentic speed, P2 Positions 7 areas RD RL Wearables Cloud Self-pref Data In Access Anonymization drifted CS2.0 mature decision making collaborate PGs, P3 Internal Efficiency UDI AMP ALP XSU Deletion Retention Anonymization self-serve pod ops fast reporting cheap easy lightweight goal change, P4 AI Transformation Risk Review Forest SIN Agent AI-Assisted Escalations Shared Facts sharing Forest across LaMa, P5 Velocity Value Efficiency deliberately lower Privacy Wave federated cost RR accel not P4. Sustainability no longer hours no bus factor 1 cross-training docs re-arch invest compounding say no outside priorities raise DRI escalate. Next Steps Area Big Rocks pod goals roadmap end June. Comments PREQ prioritization etc.
+Doc summary: projects/risk_goaling_h2_2026/docs/data_risk_goal_map_summary.md

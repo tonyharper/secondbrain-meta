@@ -1,0 +1,6 @@
+Source: https://fb.workplace.com/groups/815802615497569/permalink/2339010959843386/
+Status: FETCHED via knowledge_load 2026-07-21 — 7 reactions
+Project: risk_goaling_h2_2026
+Owner: Oliver Kaus May 5 2026 Cc Tony Baris Sebastian Connie Melody tagged Iva
+Summary: Verifier Effectiveness % Verified Days secondary Control Maturity L28 days verifier passed/total days aggregated control/requirement if all verifiers passed that day warning still verified non-verified if failing or missing data 600+ verifiers daily. Findings 27% controls 61/229 +12% verifiers 75/634 <60% L28 as of 05/02 31% verifier failures 69% monitor missing data bug platform config SLA 5 days tasks go to one platform oncall pile up. Hotspots RD 20/82 verifiers (7/21 controls) Data Out 12/95 (14/36) Cloud 11/68 (3/4) T&C 7/48 etc Goaled RD+UDI tracking T&C. Breakdown sheet 1-8lfzf... dash l0wyo2tw verifier breakdown doc 1N6Pht... sheet 743796671 dash cmt4sekp. Next Steps deep-dive dashboard Tejal Shalini move MVP dash to Control Maturity Deep Dive new foundations work with RAG/RA TLs hotspot improve. Relevance P1 % self-evidencing green subset yellow+green effective + Verified Days guardrail → NSM4.6, explains P1 hardening.
+Doc summary: projects/risk_goaling_h2_2026/docs/flywheel_and_verified_days_summary.md

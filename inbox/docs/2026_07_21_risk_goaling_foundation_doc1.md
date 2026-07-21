@@ -1,0 +1,6 @@
+Source: https://docs.google.com/document/d/1U9vrVFRO4A_jbi7QhhDbYdWv8n834gq3udR3M1KTjQQ/edit?tab=t.94anu86ip79a#heading=h.f503ptifgb92
+Status: FETCHED 2026-07-21 after jf auth --skip-legacy-auth-upgrade 38302166 DQtpX6BnlgBqCxZe4T4UtfkIRo9PSOoc — .arcrc refreshed, ghtml 187KB /tmp/risk_goaling_doc1_full.html, md 272 lines /tmp/doc1_full.md
+Project: risk_goaling_h2_2026
+Owner: Stephanie Yee (sjyee@meta.com), 19 editors, modified 2026-07-21 09:07 UTC, title [IN PROGRESS] H2 Risk Org Goals [v3]
+Summary: 4 priorities: 1 Meet obligations (1A Land Aligned Response Plans AI/Youth/Data Risk 7 areas, 1B Mature efficacy youth/FTC/GRC, 1C High-harm Security/Integrity CSAM), 2 Youth Pressure (Parental Alignment +1ppt IG US, 2A age assurance U18/U16/U13, 2B Family Center App, 2C regulatory advocacy, 2D TMH), 3 Unblock AI (white-glove AIR decisions, AI Governance), 4 Transform processes for AI (4A Scale Risk Review <7% Missed Risk, Agentic Share, 4B AI-native requirements, 4C Harden controls 90% Tier-1, 4F AI-native pods, 4G talent density). Open Qs: Goal 1C CI best practices, Goal 4A non-forest resourcing + ARR confidence, Goal 4B staffing, Goal 4G strategists tastemakers.
+Doc location summary: projects/risk_goaling_h2_2026/docs/h2_goals_v3_summary.md

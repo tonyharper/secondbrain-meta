@@ -1,0 +1,3207 @@
+# Risk H2 2026 Goal Scorecard — Native YAML Source of Truth
+# Last updated: 2026-07-21 — v3 mapping drafted
+# Human sources: Sheet + Docs feed YAML, exports to clean docs (Option 1)
+# Generated from Tier-1 Metrics Sheet https://docs.google.com/spreadsheets/d/1MCTfdFwYLl6VDrVthczHEd1OIQhMp1yRdjA9wY7pGFA/edit?gid=1081314132
+metadata:
+  last_updated: 2026-07-21
+  version: v0.2-mapped
+  total_metrics: 76
+  source_of_truth_direction: Sheet + Docs (human) -> YAML (augmented, preserves manual mappings + values history) -> exports to clean docs (detailed + summary) – Option 1
+  sources:
+    tracker_sheet: https://docs.google.com/spreadsheets/d/1MCTfdFwYLl6VDrVthczHEd1OIQhMp1yRdjA9wY7pGFA/edit?gid=1081314132
+    v3_doc: https://docs.google.com/document/d/1U9vrVFRO4A_jbi7QhhDbYdWv8n834gq3udR3M1KTjQQ/edit?tab=t.94anu86ip79a
+    goal_map: https://docs.google.com/document/d/1p5m4E70gaSLc7fCmpZnpDp9GCbCYVPgn8eBNOiFhfDA
+
+goals_definition:
+  priorities:
+    - id: P1
+      name: Meet our obligations
+      topline: Ship goals – NSM1 (% obligations covered by enforcement date – in development)
+      nsm: NSM1
+      goals:
+        - id: 1A
+          title: Land Aligned Response Plans and mature inbound response capabilities
+          description: Land frontier/high-risk positions in priority regions EU Korea Vietnam CA, Ship EU AI Act Aug+Dec 2026, Youth 100% Response Plans Q3-Q1 deploy-ready H2 capabilities high-risk/complex, Data Risk mature positions 7 areas RD/Wearables/Cloud/Self-pref/Data In/Access/Anonymization
+          risk_group_owner: All Areas Leads
+          metric_owner: Zef RosnBrick / Allison Hartnett / Arash Nikkar
+        - id: 1B
+          title: Mature efficacy of meeting ongoing obligations
+          description: Meet obligations youth compliance E2E controls library audits DSA Art28 TMH minimizing findings, FTC Assessment 4 Cycle2 MAPs >90% on-time <7% reopen, Frauds & Scams 100% control testing, automation 75% auto-detected MAP-517 auto-tested MAP-511 65% GRC RAs automated 70% faster, accelerate onboarding controls 50% assessor response 50% central tool 100% obligations tracked
+          risk_group_owner: RCP / GRC Data Risk User Risk / Area Response Platform
+          metric_owner: Susan Cooper / Arash Nikkar / Jackie Zajac
+        - id: 1C
+          title: Improve effectiveness and risk mitigation of high-harm Security/Integrity areas
+          description: Integrate integrity end-to-end into Risk for 1 use case CSAM, plus People Data per comment
+          risk_group_owner: Various
+          metric_owner: Arash Nikkar
+    - id: P2
+      name: Achieve a step-change reduction in Youth pressure
+      topline: Parental Alignment IG US +1ppt over H1 exit (exit TBC mid July) – NSM2 37.3%
+      nsm: NSM2
+      goals:
+        - id: 2A
+          title: Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV mandates
+          description: U18 FB/IG teen recall/precision, U18 MetaAI WA CBAP V2 >=50% adult recall @90% teen recall, U18 MetaAI playbook, U16/U13 prototypes, proactive detection all tier1 signals, reporting scaling SURF, enforcement 500k/yr US, new user Day0-14/20 hardlink softmatch 3P, UK OSA >xx% O18
+          risk_group_owner: Youth
+          metric_owner: Allison Hartnett
+        - id: 2B
+          title: Return to growth in Parental Alignment and continue reducing gap to YouTube
+          description: Family Center App beta smoke test positive sentiment, sustain teen safety across AI/content experiences 13+ Meta AI chats <=2 AAPC exposures/hr <=2% PLP full AAC LoD FB IG AI CYS measurement new modalities Teen Accounts Vibes MAI App
+          risk_group_owner: Youth
+          metric_owner: Allison Hartnett
+        - id: 2C
+          title: Reduce regulatory pressure by advocating effectively against social media bans and landing US federal legislation
+          description: Repeatable policy/product playbook bans India DPDP support 100% bills meeting trigger
+          risk_group_owner: Youth
+          metric_owner: Allison Hartnett
+        - id: 2D
+          title: Drive toward resolution of key TMH matters on terms consistent with principles
+          description: Provide support deliver positions TMH litigation pressure 100% requests
+          risk_group_owner: Youth
+          metric_owner: TBD
+    - id: P3
+      name: Unblock AI launches with informed Risk trade-offs
+      topline: TBC – white-glove product critical decisions within SLA – NSM3 in development
+      nsm: NSM3
+      goals:
+        - id: 3A
+          title: Unblock Priority AI Roadmap Initiatives (white-glove support)
+          description: AI Risk agentic Hatch Confidential VM Meta AI agentic TBD Labs models PAR RL personalization video multimodal wearables ambient Internal AI Hatch work MetaCode Mate People Data new risk area Data Risk MTC deletion retention Cloud User Risk Conversational AI Non-invoker Copyright News Monetization Business AI agent Subscriptions skills MRS 1PD/3PD organic/ads conversion AI-generated ads Shop Everything RCP all H2 AI model launch reqs evidenceable prior launch regulatory engagements
+          risk_group_owner: AI Risk Data Risk Monetization RCP
+          metric_owner: Zef RosnBrick / Arash Nikkar / Kristen Durkin / Susan Cooper
+        - id: 3B
+          title: Deliver timely well-calibrated AIR decisions
+          description: xx% white-glove product-critical within SLA no increase L1+ high residual risk rate
+          risk_group_owner: AI Risk
+          metric_owner: Zef RosnBrick
+        - id: 3C
+          title: Ship AI Governance trust & safety launch framework
+          risk_group_owner: AI Risk
+          metric_owner: Zef RosnBrick
+    - id: P4
+      name: Transform our processes and Org for AI
+      topline: NSM4.1 % Minimal volume 48% goal 90% compliance automatically 2027, plus NSM4.2 median Heavy 11.1d NSM4.3 adoption TBD NSM4.4 utility TBD Guardrail NSM4.5 Missed Risk 5.44% NSM4.6 self-evidenced effective 29.6%
+      nsm: NSM4
+      goals:
+        - id: 4A
+          title: Scale Risk Review with high quality across all Areas
+          description: Risk review sustainable Missed Risk <7% xx% SINs under SLO, Most product teams adopt Agentic Risk Review faster easier LaMa Agentic Share xx% every rollout meets perf benchmarks p90 Questions per Review <yy% User cSAT +xx%, Risk experts handle novel faster User/Data/AI Risk L1 Rate reduced xx% Youth AI agents deployed critical escalation 75-100% adoption
+          risk_group_owner: User Risk Data Risk Monetization AI Risk Youth Risk Review
+          metric_owner: Abhishek Gulati + Risk area leaders / Arash Nikkar Jackie Zajac Allison Hartnett Zef
+        - id: 4B
+          title: Ship AI-native requirements across all Risk Areas
+          description: AI-native Requirements change loop proven requirement change propagates automatically to at least 2 downstream use cases Applicability SIN verification closed feedback loop cyclically Change eval fix requirement distillation redeployed
+          risk_group_owner: All Risk Areas
+          metric_owner: Nathan Davis
+        - id: 4C
+          title: Harden controls and scale platform to keep pace with agent growth
+          description: Reduce Risk SEV prevalence agentic non-agentic double proactive interception Agent privacy violations includes SEVs, Harden 90% Tier-1 reqs known SEV patterns, Reduce friction cost agentic workflows observability >=90% reduce top agent interventions auth sensitive data ACL tool networking Diff Phabricator improve precision AO actions hook diff AURA auto-mitigation orchestrate privacy signals reduce time cost maintain Controls Safeguards partner requests 50% create company value iRev
+          risk_group_owner: GRC Agent Oversight Data Risk
+          metric_owner: Arash Nikkar
+        - id: 4F
+          title: Standardize how AI-native pods operate across Risk with shared goals consistent infra clear expectations human oversight
+          description: Ensure critical AI systems majority meet AI Fundamentals quality bar xx% systems 100% critical pass, Eval Quality all top-priority AI launches rigorous evals SMEs embedded >=1 pod runs rigorous eval E2E using only CoE resources playbooks office hours tooling without direct coaching
+          risk_group_owner: Engineering / Analytics & Research
+          metric_owner: Arash Nikkar Stephanie Yee
+        - id: 4G
+          title: Strengthen talent density and AI-native expertise across Risk Org
+          description: Scale Judgement Expertise establish execute plan scale key talent pools EOH Risk strategists grow pool skills tools efficient, Eval/ML SMEs, Domain experts, Auditors, <xx% preventable attrition minimize cases lack awareness fail timely effective action tracking awareness prevention metrics
+          risk_group_owner: See each bullet
+          metric_owner: Zef / Stephanie / Varies / Abhishek / Kazuho Ozawa
+
+metrics:
+  - id: obligation_wall_time_triage_passage_to_lsb_and_understand_ph_0
+    metric_name: "Obligation wall time: Triage (passage to LSB) and Understand phase (triage to end of GIA)"
+    human_goal: "Obligations reach critical milestones faster"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Areas Response Platform"
+    type: "New"
+    poc_analytics: "TBD (Risa & Anthony for now)"
+    goal_tracking: "Goal"
+    definition: "Ship definition by end of Q3. Stand up shipping new metric."
+    definition_status: "Blocked"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Blocked"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: land_aligned_response_plans_before_live_date_for_every_h2_re_1
+    metric_name: "Land aligned response plans before live date for every H2 regulatory obligation"
+    human_goal: "1.1: Maintain and strengthen existing critical positions, and land aligned response plans before live date for every regulatory obligation that will come into effect in H2"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "User Risk"
+    type: "Ship Goal"
+    poc_analytics: "TBD, Fernando interim"
+    goal_tracking: "Goal"
+    definition: "[Accessibility] Maintain position on EAA and respond to India Court Order; land decision on EN 301 549 requirements
+
+[Accessibility] Land response plan for CVAA Second Report and Order. Metric: Decisi"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: 90_of_l1_supported_escalations_have_t_c_input_filled_and_al_2
+    metric_name: ">90% of L1+ supported escalations have T&C input filled and aligned ≥24h before review"
+    human_goal: "1.2: Operate inbound risk-response and escalation processes within SLA across User Risk"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "User Risk"
+    type: "Existing"
+    poc_analytics: "Barnaby Cooper"
+    goal_tracking: "Goal"
+    definition: "[T&C Decisions]
+Metric created week of June 8 (https://tnc_escalations_manager.internalmeta.com/?zone=reports)"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: all_pending_reg_response_obligations_triaged_within_5_busine_3
+    metric_name: "All pending Reg Response Obligations triaged within 5 business days"
+    human_goal: "1.2: Operate inbound risk-response and escalation processes within SLA across User Risk"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "User Risk"
+    type: "New"
+    poc_analytics: "Barnaby Cooper"
+    goal_tracking: "Goal"
+    definition: "[T&C Decisions] All pending Reg Response gap impact assessments get triaged (closed or escalated to Decision pod) within 5 business days"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: sins_under_slo_4
+    metric_name: "% SINs under SLO"
+    human_goal: "1.2: Operate inbound risk-response and escalation processes within SLA across User Risk"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "User Risk"
+    type: "Existing"
+    poc_analytics: "Alice Berthaux"
+    goal_tracking: "Goal"
+    definition: "[T&C Controls]"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    data_risk_mapping:
+      priority_id: P0
+      priority_name: "Keep the Company Running"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: prepare_and_ship_critical_notification_campaigns_and_privacy_5
+    metric_name: "Prepare and ship critical notification campaigns and privacy policy updates"
+    human_goal: "1.3 Ship the H2 Critical Path Deliverables the business depends on"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "User Risk"
+    type: "Ship Goal"
+    poc_analytics: "Harshpreet Singh"
+    goal_tracking: "Goal"
+    definition: "[T&C Controls] Ship: Ship: OMT Deprecation/OBA Expansion; Keren Aviv; India ITRR 2026Q3 ship-ready for August
+Ship: Complete Meta Privacy Policy Semiannual Update and Annual Privacy Policy Review"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: sins_under_slo_6
+    metric_name: "% SINs under SLO"
+    human_goal: "Keep SIN within SLO so as to meet regulatory deadlines"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Data Risk"
+    type: "Existing"
+    poc_analytics: "Scott Murani"
+    goal_tracking: "Goal"
+    definition: "% of SINs (Specialized Input Needed) completed within SLO"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    data_risk_mapping:
+      priority_id: P0
+      priority_name: "Keep the Company Running"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: requirements_effective_green_yellow_7
+    metric_name: "% Requirements effective (green+yellow)"
+    human_goal: "Maintain controls, address SEVs, deliver MAPs"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Data Risk"
+    type: "Existing"
+    poc_analytics: "Iva Marinkovic Bugarcic"
+    goal_tracking: "Goal"
+    definition: "% of requirements with effective controls (green or yellow in the control-maturity quadrant)"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    data_risk_mapping:
+      priority_id: P0
+      priority_name: "Keep the Company Running"
+      nsm: NSM1
+    nsm_rollup: NSM1
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: requirements_with_effective_self_evidencing_controls_green_8
+    metric_name: "% Requirements with effective self-evidencing controls (% green)"
+    human_goal: "Manage risks globally with self-evidencing, self-adopting controls rather than bespoke case-by-case"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Data Risk"
+    type: "Existing"
+    poc_analytics: "Iva Marinkovic Bugarcic"
+    goal_tracking: "Goal"
+    definition: "% of requirements with effective self-evidencing controls (green quadrant)"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    data_risk_mapping:
+      priority_id: P1
+      priority_name: "Meet all our Risks with Robust, Global Controls"
+      nsm: NSM4.6
+    nsm_rollup: NSM4.6
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: aligned_positions_for_the_7_priority_areas_9
+    metric_name: "Aligned positions for the 7 priority areas"
+    human_goal: "Mature risk positions that manage internal + external pressure"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Data Risk"
+    type: "Ship Goal"
+    poc_analytics: "Baris Cem Sal"
+    goal_tracking: "Goal"
+    definition: "Aligned positions reached for the 7 priority areas: RD, RL Wearables, Cloud, Self-preferencing, Data In, Access, Anonymization (each reviewed + aligned)"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    data_risk_mapping:
+      priority_id: P2
+      priority_name: "Strengthen Data Risk Positions"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: tbc_see_comment_10
+    metric_name: "TBC - see comment"
+    human_goal: "Mature AI regulatory response and compliance strategy"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "AI Risk"
+    type: "Ship Goal"
+    poc_analytics: "Emily Hahn"
+    goal_tracking: "Goal"
+    definition: "1. Ship EU AI Act on time. Aug + Dec 2026 system-level requirements delivered (AI transparency, content labeling, prohibited practices).
+2. Land frontier/high-risk positions in priority launch regions"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: align_x_meta_response_plans_including_ppg_goals_in_time_to_m_11
+    metric_name: "Align x-Meta response plans, including PPG goals, in time to meet monetization obligations"
+    human_goal: "Drive AI-native regulatory readiness at scale -- Maintain rapid, high-quality regulatory responses & preparation w/ AI-accelerated context & position development"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Monetization Risk"
+    type: "Ship Goal"
+    poc_analytics: "Liz Keneski"
+    goal_tracking: "Goal"
+    definition: "- Provide responses to DPC assessment to defend LPA in the EU 
+- Implement Q2-aligned Russmedia defense strategy against joint controllership pressure in EU
+- Execute Q2-aligned BRR litigation respons"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: first_attempt_dataset_success_rate_12
+    metric_name: "First Attempt Dataset Success Rate"
+    human_goal: "MSL Researchers have their datasets successfully mitigated end-to-end on the first attempt"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "MTC"
+    type: "Existing"
+    poc_analytics: "Swetha Singiri"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Finalized"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: sev_proactive_rate_13
+    metric_name: "SEV Proactive Rate"
+    human_goal: "Model Training SEVs are detected proactively to minimize unexpected friction for MSL Researchers"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "MTC"
+    type: "Existing"
+    poc_analytics: "Kevin Bauer"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Finalized"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: checkpoint_compliance_coverage_rate_14
+    metric_name: "Checkpoint Compliance Coverage Rate"
+    human_goal: "AI at Meta production traffic is served by a verifiably compliant checkpoint"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "MTC"
+    type: "New"
+    poc_analytics: "Ning Lok"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Blocked"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Blocked"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Blocked"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: svt_automation_deadline_met_15
+    metric_name: "SVT Automation Deadline Met"
+    human_goal: "Our FTC cycle deadlines are met with no outstanding compliance gaps"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "GRC Product Platform"
+    type: "Ship Goal"
+    poc_analytics: "Ashirbad Ghosh"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: automate_safeguard_verification_testing_svt_16
+    metric_name: "Automate Safeguard Verification & Testing (SVT)"
+    human_goal: "Safeguards are automatically tested on a rolling basis as they change"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "GRC Product Platform"
+    type: "Ship Goal"
+    poc_analytics: "Avi Varadarajulu"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: reactive_risk_sev_prevalance_17
+    metric_name: "Reactive Risk SEV Prevalance"
+    human_goal: "Actual risk to Meta are dramatically reduced through our prevention and detection of SEVs before the risk is realized"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "GRC Product Platform"
+    type: "New"
+    poc_analytics: "Shuaimin Kang"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Blocked"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Blocked"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Blocked"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: auto_detection_rate_18
+    metric_name: "Auto Detection Rate"
+    human_goal: "Auto-detect most Safeguard changes"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "GRC Product Platform"
+    type: "New"
+    poc_analytics: "Shuaimin Kang"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Finalized"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: adult_classifier_u18_teen_recall_19
+    metric_name: "Adult Classifier (U18) Teen recall"
+    human_goal: "Teen prediction: Deliver step-function improvement in U18 age estimation accuracy"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Existing"
+    poc_analytics: "Conor Frailey"
+    goal_tracking: "Goal"
+    definition: "Adulat Classifier (U18) Teen recall at xx% Precision for prioritized markets (P0 US*, P1 RoW**) for 18 boundary across FB and IG"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: ship_meta_ai_x_wa_adult_model_v2_20
+    metric_name: "Ship Meta AI x WA adult model V2"
+    human_goal: "Teen prediction: Deliver step-function improvement in U18 age estimation accuracy"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Conor Frailey"
+    goal_tracking: "Goal"
+    definition: "Ship CBAP V2 model to Meta AI x WhatsApp achieving ≥50% adult recall (adult WA MetaAI MAU) @ 90% teen recall (teen WA MetaAI MAU)"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: establish_u18_prediction_playbook_21
+    metric_name: "Establish U18 Prediction Playbook"
+    human_goal: "Teen prediction: Deliver step-function improvement in U18 age estimation accuracy"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Conor Frailey"
+    goal_tracking: "Goal"
+    definition: "Establish 18 boundary prediction playbook for Meta AI Apps"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: develop_foa_u16_model_protoptye_22
+    metric_name: "Develop FoA U16 Model Protoptye"
+    human_goal: "Minimum Age Detection (MADE): Expand proactive detection coverage and improve account review accuracy to meet regulatory commitments and enable SURF rollout"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Prastuti Singh"
+    goal_tracking: "Goal"
+    definition: "Establish measurement at U16/O16 boundary and develop U16/O16 model architecture/prototype"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: expand_proactive_deteciton_of_u13_23
+    metric_name: "Expand Proactive deteciton of U13"
+    human_goal: "Minimum Age Detection (MADE): Expand proactive detection coverage and improve account review accuracy to meet regulatory commitments and enable SURF rollout"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Zoe Guo"
+    goal_tracking: "Goal"
+    definition: "Expand proactive to all tier 1 signals for U13 + bio, posts, written for other age boundaries (guardrail on NVMI)"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: underage_proactive_and_reporting_detection_checkpoint_volume_24
+    metric_name: "Underage proactive and reporting detection + checkpoint volume"
+    human_goal: "Minimum Age Detection (MADE): Expand proactive detection coverage and improve account review accuracy to meet regulatory commitments and enable SURF rollout"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Existing"
+    poc_analytics: "Zoe Guo"
+    goal_tracking: "Goal"
+    definition: "# of U13 accounts detected and checkpointed through proactive detection and through user reporting"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: u13_review_false_positive_rate_25
+    metric_name: "U13 Review False Positive Rate"
+    human_goal: "Minimum Age Detection (MADE): Expand proactive detection coverage and improve account review accuracy to meet regulatory commitments and enable SURF rollout"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Existing"
+    poc_analytics: "Zoe Guo"
+    goal_tracking: "Goal"
+    definition: "Out of accounts reviewed who did not represent as U13, what % of them were checkpointed"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: foa_u13_model_protoptye_26
+    metric_name: "FoA U13 Model Protoptye"
+    human_goal: "Minimum Age Detection (MADE): Expand proactive detection coverage and improve account review accuracy to meet regulatory commitments and enable SURF rollout"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Conor Frailey"
+    goal_tracking: "Goal"
+    definition: "Deliver the measurement strategy and U13 model prototype for US to establish scalable detection"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: analytics_age_model_migration_27
+    metric_name: "Analytics Age Model migration"
+    human_goal: "Age Analytics: Reliable topline analytics trends are used by FB/IG for US cross-app comparison"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Conor Frailey"
+    goal_tracking: "Goal"
+    definition: "Migration from single age → age bands for FB/IG, with US data being served from new analytics model in October for H1 2027 goaling for apps"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: deploy_ready_for_app_store_age_laws_28
+    metric_name: "Deploy ready for App Store age laws"
+    human_goal: "External Age Signals: Integrate with government mandated or platform provided age signals to strengthen multi-layered age assurance strategy"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Conor Frailey"
+    goal_tracking: "Goal"
+    definition: "Deploy ready for App Store age laws"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: digital_id_verification_29
+    metric_name: "Digital ID Verification"
+    human_goal: "External Age Signals: Integrate with government mandated or platform provided age signals to strengthen multi-layered age assurance strategy"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Conor Frailey"
+    goal_tracking: "Goal"
+    definition: "Integrate with government mandated digital IDs (France, Malaysia, Turkiye) and complete committed test with Ireland"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: day_0_14_20_age_assurance_30
+    metric_name: "Day 0-14/20 Age Assurance"
+    human_goal: "AV Mandate Readiness: Deploy readiness for AV mandates while minimizing over-enforcement at new user registration"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Conor Frailey"
+    goal_tracking: "Goal"
+    definition: "Enable new users age assurance via hardlink, softmatch, 3P signals; Resolve >xx% of new adult users as O18 for UK OSA (TBD other jurisdictions)"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2A
+      goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: regulatory_acceptance_of_multi_layered_approach_31
+    metric_name: "Regulatory Acceptance of Multi-Layered Approach"
+    human_goal: "External Engagement: Increase acceptance of our multi-layered age assurance approach and promptly, efficiently, and accurately respond to RFIs"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Conor Frailey"
+    goal_tracking: "Goal"
+    definition: "# of jurisdictions moving from Type 3 (AV Mandate) to Type 2 (Multi-layered)"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2C
+      goal_title: "Reduce regulatory pressure by advocating effectively against social media bans and landing US federal legislation"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: launch_fca_app_32
+    metric_name: "Launch FCA App"
+    human_goal: "Teen Account/Supervision consistency across Meta: Expand Teen Account/Supervision further across FoA; launch standalone Family Center app beta to further drive power parent user/policymaker alignment"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Qifan Wang"
+    goal_tracking: "Goal"
+    definition: "Launch FCA Beta (iOS) with AI assistant with limited functionality to a closed cohort of parents and policymakers"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: ship_turn_conversational_level_cys_measurement_across_text_v_33
+    metric_name: "Ship turn/ conversational-level CYS measurement across text, video, images, voice and associated performance bar aligned with MSL"
+    human_goal: "AI Risk Measurement and Parent Alignment: Mature youth risk measurement and deliver safety  features to drive parent alignment."
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Wenjun Sun"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: cys_online_vr_34
+    metric_name: "CYS Online VR"
+    human_goal: "AI Risk Measurement and Parent Alignment: Mature youth risk measurement and deliver safety  features to drive parent alignment."
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Existing"
+    poc_analytics: "Wenjun Sun"
+    goal_tracking: "Goal"
+    definition: "Sustain a 13 + aligned content experience on Meta AI <> teen chats. (CYS Online VR < X%* new goal alignment)"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: ship_ssi_alert_v2_35
+    metric_name: "Ship SSI Alert V2"
+    human_goal: "AI Risk Measurement and Parent Alignment: Mature youth risk measurement and deliver safety  features to drive parent alignment."
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Taylor Brown"
+    goal_tracking: "Goal"
+    definition: "Ship user-level risk detection across multiple conversations for prioritized risk areas"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: launch_parental_alerts_on_new_high_sensitivity_topics_36
+    metric_name: "Launch Parental alerts on new high-sensitivity topics"
+    human_goal: "AI Risk Measurement and Parent Alignment: Mature youth risk measurement and deliver safety  features to drive parent alignment."
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Platina Liu"
+    goal_tracking: "Goal"
+    definition: "Launch parental alerts to new high-sensitivity topics (sextortion on IG/FB/MSGR; SSI notif expansion on FB Search; SSI AI Chat FB/IG to ROW)."
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: facebook_aapc_exposure_per_hour_37
+    metric_name: "Facebook AAPC Exposure per hour"
+    human_goal: "Continue strengthening our baseline to sustain/expand safe and age appropriate experiences across FoA"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Existing"
+    poc_analytics: "Andreas Ferstad"
+    goal_tracking: "Goal"
+    definition: "Translation from Organic Violation Prevalence (based on AAPC policy) using average time spend per user"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: instagram_aapc_exposure_per_hour_38
+    metric_name: "Instagram AAPC Exposure per hour"
+    human_goal: "Continue strengthening our baseline to sustain/expand safe and age appropriate experiences across FoA"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Existing"
+    poc_analytics: "Anita Mahinpei"
+    goal_tracking: "Goal"
+    definition: "Translation from Organic Violation Prevalence (based on AAPC policy) using average time spend per user"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: facebook_plp_18_39
+    metric_name: "Facebook PLP 18+ %"
+    human_goal: "Continue strengthening our baseline to sustain/expand safe and age appropriate experiences across FoA"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Existing"
+    poc_analytics: "Andreas Ferstad"
+    goal_tracking: "Goal"
+    definition: "% of weighted sampled contenct rated by 60% of parents surveyd in Parent Labeling Program to be appropriate for 18+ audience only"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: instagram_plp_18_40
+    metric_name: "Instagram PLP 18+ %"
+    human_goal: "Continue strengthening our baseline to sustain/expand safe and age appropriate experiences across FoA"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Existing"
+    poc_analytics: "Anita Mahinpei"
+    goal_tracking: "Goal"
+    definition: "% of weighted sampled contenct rated by 60% of parents surveyd in Parent Labeling Program to be appropriate for 18+ audience only"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: age_appropriate_content_2nd_line_of_defense_41
+    metric_name: "Age-appropriate Content 2nd Line of Defense"
+    human_goal: "Continue strengthening our baseline to sustain/expand safe and age appropriate experiences across FoA"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Katrina Browne"
+    goal_tracking: "Goal"
+    definition: "Full operational coverage of AAC LoD framework aligned across FB, IG, and AI"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2B
+      goal_title: "Return to growth in Parental Alignment and continue reducing gap to YouTube"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: develop_repeatable_policy_and_product_playbook_42
+    metric_name: "Develop repeatable policy and product playbook"
+    human_goal: "Reduce regulatory pressure by advocating effectively against social media bans and landing US federal legislation"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Tian Lan"
+    goal_tracking: "Goal"
+    definition: "Develop repeatable policy and product playbook for ongoing policy advocacy on social media bans and India DPDP and help define regulatory engagement strategy"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2C
+      goal_title: "Reduce regulatory pressure by advocating effectively against social media bans and landing US federal legislation"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: product_support_for_policy_43
+    metric_name: "Product Support for Policy"
+    human_goal: "Reduce regulatory pressure by advocating effectively against social media bans and landing US federal legislation"
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Tian Lan"
+    goal_tracking: "Goal"
+    definition: "Product provides support for 100% of bills meeting trigger criteria (i.e. read those bills and provide input on risks & product advocacy strategy)"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2C
+      goal_title: "Reduce regulatory pressure by advocating effectively against social media bans and landing US federal legislation"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: support_tmh_negotiations_44
+    metric_name: "Support TMH Negotiations"
+    human_goal: "Support TMH response: Provide Legal with support for the Teen Mental Health Litigation, at their request, to allow the company to put forward its defense and consider potential settlement options."
+    investment_priority: "2. Achieve a step-change reduction in Youth Pressure"
+    risk_group: "Youth"
+    type: "Existing"
+    poc_analytics: "Jim Liu"
+    goal_tracking: "Goal"
+    definition: "Provide support for TMH litigation on 100% of requests"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P2
+      priority_name: "2. Achieve a step-change reduction in Youth Pressure"
+      goal_id: 2D
+      goal_title: "Drive toward resolution of key TMH matters on terms consistent with principles"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: response_plan_ready_for_new_regulations_45
+    metric_name: "Response Plan ready for new regulations"
+    human_goal: "Comply with new laws especially high risk regulations"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Taylor Orner"
+    goal_tracking: "Goal"
+    definition: "Deliver aligned Response Plans for 100% of Regulations with enforcement dates in Q3-Q1 2027; achieve deploy-ready status for 100% Regulations with enforcement dates in H2"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: deploy_ready_for_new_regulations_46
+    metric_name: "Deploy ready for new regulations"
+    human_goal: "Comply with new laws especially high risk regulations"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Taylor Orner"
+    goal_tracking: "Goal"
+    definition: "Deliver aligned Response Plans for 100% of Regulations with enforcement dates in Q3-Q1 2027; achieve deploy-ready status for 100% Regulations with enforcement dates in H2"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1A
+      goal_title: "Land Aligned Response Plans and mature inbound response capabilities"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: response_plan_efficiency_47
+    metric_name: "Response plan efficiency"
+    human_goal: "Reduce cost to compliance through automation and platformization."
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Julia van Hoogstraten"
+    goal_tracking: "Goal"
+    definition: "Ship advocacy agent and laws automation (gap assessment, response plan, implementation/build) while meeting  quality metric bar"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: deployment_efficiecy_48
+    metric_name: "Deployment Efficiecy"
+    human_goal: "Reduce cost to compliance through automation and platformization."
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Youth"
+    type: "New"
+    poc_analytics: "Qifan Wang"
+    goal_tracking: "Goal"
+    definition: "x% of jurisdictions with a Q4 response plan ready date that are deploy ready within 2 weeks"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: youth_area_maturity_49
+    metric_name: "Youth Area Maturity"
+    human_goal: "Mature Risk Area: Every Youth risk area is mature and self-sufficient with routine work automated"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Julia van Hoogstraten"
+    goal_tracking: "Goal"
+    definition: "Every Youth Risk Area Operates at a Mature, Self-Sufficient Quality Bar:  7/7 Youth Risk Areas achieving core foundational and operational foundational stage; 4/7 in intermediate stage; 1/7 in advance"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: idp_maintenance_efficiency_50
+    metric_name: "IDP Maintenance efficiency"
+    human_goal: "Mature Risk Area: Every Youth risk area is mature and self-sufficient with routine work automated"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Julia van Hoogstraten"
+    goal_tracking: "Goal"
+    definition: "Lower the cost of IDP maintenance through automation: ship IDP update automation; develop continuous eval pla"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: ig_youth_risk_review_maturity_51
+    metric_name: "IG Youth Risk review maturity"
+    human_goal: "Mature Risk Area: Every Youth risk area is mature and self-sufficient with routine work automated"
+    investment_priority: "1. Meet our obligation response requirements"
+    risk_group: "Youth"
+    type: "Ship Goal"
+    poc_analytics: "Julia van Hoogstraten"
+    goal_tracking: "Goal"
+    definition: "Graduate IG to mature risk review participants"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P1
+      priority_name: "1. Meet our obligation response requirements"
+      goal_id: 1B
+      goal_title: "Mature efficacy of meeting ongoing obligations"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: tbc_see_comment_52
+    metric_name: "TBC - see comment"
+    human_goal: "Unblock priority AI roadmap initiatives and make cross-org strategic decisions to unlock or protect multiple AI roadmap initiatives"
+    investment_priority: "3. Unblock AI launches with informed Risk trade-off"
+    risk_group: "AI Risk"
+    type: ""
+    poc_analytics: "Zef RosnBrick"
+    goal_tracking: ""
+    definition: "1. Meta's agentic AI bets (Hatch, Confidential VM, Meta AI agentic) with a successful trust & safety narrative.
+2. TBD Labs' priority model launches.
+3. PAR and RL priority launches (personalization v"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P3
+      priority_name: "3. Unblock AI launches with informed Risk trade-off"
+      goal_id: 3A
+      goal_title: "Unblock Priority AI Roadmap Initiatives (white-glove support)"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: ai_launch_decision_speed_air_white_glove_product_critical_de_53
+    metric_name: "AI Launch - Decision Speed - % AIR White-Glove Product Critical Decisions within SLA"
+    human_goal: "Risk Org Priority #3: Unblock AI launches with informed Risk trade-offs"
+    investment_priority: "3. Unblock AI launches with informed Risk trade-off"
+    risk_group: "AI Risk"
+    type: "Ship Goal"
+    poc_analytics: "Jiaqi Guo"
+    goal_tracking: "Goal"
+    definition: "Ship the metric (including definition, attribution/hotspot, and dashboard) of AI Launch Decision Speed metric"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P3
+      priority_name: "3. Unblock AI launches with informed Risk trade-off"
+      goal_id: 3B
+      goal_title: "Deliver timely well-calibrated AIR decisions"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: ai_launch_decision_risk_trade_off_air_l1_decisions_with_high_54
+    metric_name: "AI Launch - Decision Risk Trade-Off: % AIR L1+ Decisions with high (residual) risk"
+    human_goal: "Risk Org Priority #3: Unblock AI launches with informed Risk trade-offs"
+    investment_priority: "3. Unblock AI launches with informed Risk trade-off"
+    risk_group: "AI Risk"
+    type: "Ship Goal"
+    poc_analytics: "Melody (Interim), Ian (Interim)"
+    goal_tracking: ""
+    definition: "Ship the metric (including definition, attribution/hotspot, and dashboard) of % AIR L1+ Decisions with high (residual) risk."
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P3
+      priority_name: "3. Unblock AI launches with informed Risk trade-off"
+      goal_id: 3B
+      goal_title: "Deliver timely well-calibrated AIR decisions"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: n_a_description_of_outcomes_monrisk_is_not_blocker_for_meta_55
+    metric_name: "N/A
+Description of outcomes:
+- MonRisk is not blocker for Meta priority product launches
+- Strategic decisions that frame a family of local product risk decision/acceptance and rem"
+    human_goal: "Up-level AI-product MonRisk decisions - Support key x-Meta priorities by engaging early in the ideation/proposal process, moving upstream with playbooks for new apps, and driving strategic decisions that frame a family of local product risk decision/"
+    investment_priority: "3. Unblock AI launches with informed Risk trade-off"
+    risk_group: "Monetization Risk"
+    type: "Ship Goal"
+    poc_analytics: "Liz Keneski"
+    goal_tracking: "Goal"
+    definition: "- Ship OMT deprecation/OBA expansion in EU w/ strong GTM 
+- Ship Business AI+Subs feature & agentic skill expansion w/ GTM consult
+- Ship Risk playbook for new APAC apps
+- Better understand (UXR) and "
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P3
+      priority_name: "3. Unblock AI launches with informed Risk trade-off"
+      goal_id: 3A
+      goal_title: "Unblock Priority AI Roadmap Initiatives (white-glove support)"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: accelerate_the_move_to_ai_native_requirements_58
+    metric_name: "Accelerate the move to AI-native Requirements"
+    human_goal: "2.1 Convert Risk Requirements into machine-readable, AI-native form"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "User Risk"
+    type: "Ship Goal"
+    poc_analytics: "Alice Berthaux"
+    goal_tracking: "Goal"
+    definition: "[T&C Decisions] Ship: 
+> 10 requirements moved to enriched state - creating ≥0 uplift to Tier 1 skills (AC, Forest, L1)."
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4B
+      goal_title: "Ship AI-native requirements across all Risk Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: 90_of_t_c_requirements_covered_by_self_evidencing_controls_59
+    metric_name: "90% of T&C requirements covered by self-evidencing controls"
+    human_goal: "2.2 Achieve broad coverage by automated, self-evidencing controls and risk identification"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "User Risk"
+    type: "Existing"
+    poc_analytics: "Liz Keneski"
+    goal_tracking: "Goal"
+    definition: "[T&C Controls] # of requirements covered by self-evidencing controls"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: of_reviews_that_would_be_minimal_but_for_t_c_requirements_60
+    metric_name: "% of reviews that would be “minimal” but for T&C requirements"
+    human_goal: "2.2 Achieve broad coverage by automated, self-evidencing controls and risk identification"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "User Risk"
+    type: "Existing"
+    poc_analytics: "Alice Berthaux"
+    goal_tracking: "Tracking"
+    definition: "[T&C Controls] % of reviews that would be “minimal” but for T&C requirements"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: t_c_forest_rollout_to_100_61
+    metric_name: "T&C Forest rollout to 100%"
+    human_goal: "2.2 Achieve broad coverage by automated, self-evidencing controls and risk identification"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "User Risk"
+    type: "Existing"
+    poc_analytics: "Barnaby Cooper"
+    goal_tracking: "Goal"
+    definition: "[T&C Controls]"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: decrease_external_vendor_spending_by_transitioning_news_labe_62
+    metric_name: "Decrease external vendor spending by transitioning News labelling to AI"
+    human_goal: "2.3 Run Risk Review and Compliance Operations through Agentic Workflows with Continuous Evals"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "User Risk"
+    type: "New"
+    poc_analytics: "Mike Derksen"
+    goal_tracking: "Goal"
+    definition: "[News] % entities reviewed by humans; $/entity; $ savings annualised"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: 90_of_l1_escalation_risk_options_labelled_63
+    metric_name: "90% of L1+ escalation risk options labelled"
+    human_goal: "2.3 Run Risk Review and Compliance Operations through Agentic Workflows with Continuous Evals"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "User Risk"
+    type: "New"
+    poc_analytics: "Barnaby Cooper"
+    goal_tracking: "Goal"
+    definition: "[T&C Decisions] > 90% of L1+ High Touch escalation risk options labelled in ground truth"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: ship_critical_partner_commitments_64
+    metric_name: "Ship critical partner commitments"
+    human_goal: "1.3 Ship the H2 Critical Path Deliverables the business depends on"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "User Risk"
+    type: "Ship Goal"
+    poc_analytics: "Alice Berthaux"
+    goal_tracking: "Goal"
+    definition: "[T&C Controls] Ship: E2E Threads Cookies, AI 1PD CIP migration, AI PJ gating"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: eng_days_per_month_for_these_activities_65
+    metric_name: "# eng days per month for these activities"
+    human_goal: "Reduce time required to maintain T&C Controls, Safeguards, and deliver non-negotiable partner requests"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "User Risk"
+    type: "Existing"
+    poc_analytics: "TBD"
+    goal_tracking: "Goal"
+    definition: "[T&C Controls]"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: controls_agentic_ready_66
+    metric_name: "% controls agentic-ready"
+    human_goal: "Manage risks globally with self-evidencing, self-adopting controls rather than bespoke case-by-case."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Data Risk"
+    type: "New"
+    poc_analytics: "TBD (Baris Cem Sal, interim)"
+    goal_tracking: "Goal"
+    definition: "Ship definition by end of Q3. Two aspects: control still passes when the primary actor is an AI agent; requirements covered by agentic compliance"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    data_risk_mapping:
+      priority_id: P1
+      priority_name: "Meet all our Risks with Robust, Global Controls"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: cost_of_compliance_direct_costs_usd_67
+    metric_name: "Cost-of-compliance (Direct costs, USD)"
+    human_goal: "Make controls cheaper + more sustainable; make pod operations + reporting cheap and easy."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Data Risk"
+    type: "Existing"
+    poc_analytics: "TBD (Baris Cem Sal, interim)"
+    goal_tracking: "Goal"
+    definition: "Direct cost of compliance in USD: FTEs, CWs, Infra, OPEX, Tokens"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    data_risk_mapping:
+      priority_id: P3
+      priority_name: "Make a Step Change in Data Risk Internal Efficiency"
+      nsm: NSM7
+    nsm_rollup: NSM7
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: minimal_lamas_dr_filtered_68
+    metric_name: "% "Minimal" LaMas (DR filtered)"
+    human_goal: "Enable AI Risk Review so the company can move fast on novel-risk products and requirements without global controls"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Data Risk"
+    type: "New"
+    poc_analytics: "Sebastian Poehlmann"
+    goal_tracking: "Goal"
+    definition: "Ship a DR-filtered view of the org "% Minimal LaMas" metric; land early Q3"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    data_risk_mapping:
+      priority_id: P4
+      priority_name: "Enable the AI Transformation of Risk Review"
+      nsm: NSM4.1
+    nsm_rollup: NSM4.1
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: unnecessary_sin_rate_tbd_69
+    metric_name: "Unnecessary SIN rate [TBD]"
+    human_goal: "Enable AI Risk Review so the company can move fast on novel-risk products and requirements without global controls"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Data Risk"
+    type: "New"
+    poc_analytics: "Scott Murani"
+    goal_tracking: "Goal"
+    definition: "Ship definition by end of Q3: a measure of unnecessary / regrettable SIN"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    data_risk_mapping:
+      priority_id: P4
+      priority_name: "Enable the AI Transformation of Risk Review"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: pg_compliance_cost_ey_70
+    metric_name: "PG compliance cost ($/EY)"
+    human_goal: "Reduce Privacy Wave and other Federated compliance costs."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Data Risk"
+    type: "Existing"
+    poc_analytics: "TBD (Baris Cem Sal, interim)"
+    goal_tracking: "Tracking"
+    definition: "Indirect compliance cost ($)"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    data_risk_mapping:
+      priority_id: P5
+      priority_name: "Improve Company Velocity, Value, Efficiency"
+      nsm: NSM7
+    nsm_rollup: NSM7
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: created_company_value_e_g_irev_71
+    metric_name: "Created company value (e.g. iRev)"
+    human_goal: "Create company value where possible and appropriate."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Data Risk"
+    type: "Existing"
+    poc_analytics: "TBD (Baris Cem Sal, interim)"
+    goal_tracking: "Tracking"
+    definition: "Company value created by DR work (e.g. iRev; storage savings via retention optimization)"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    data_risk_mapping:
+      priority_id: P5
+      priority_name: "Improve Company Velocity, Value, Efficiency"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: mature_controls_risk_solution_progression_metrics_72
+    metric_name: "Mature Controls: risk solution progression metrics"
+    human_goal: "Mature risk solutions and controls"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "AI Risk"
+    type: "New"
+    poc_analytics: "Kevin Bauer"
+    goal_tracking: "Tracking"
+    definition: "Ship AIR risk solution progression metrics."
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: mature_controls_ai_risk_control_effectiveness_of_requirement_73
+    metric_name: "Mature Controls - AI Risk Control Effectiveness: % of Requirement Instances that are Covered by an Effective Control"
+    human_goal: "Mature risk solutions and controls"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "AI Risk"
+    type: "New"
+    poc_analytics: "Kevin Bauer"
+    goal_tracking: "Goal"
+    definition: "Ship AI Risk Requirements Compliance: % of Requirement Instances that are Covered by an Effective Control"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: mature_controls_minimal_msl_friction_of_model_training_risk_74
+    metric_name: "Mature Controls - Minimal MSL Friction: % of Model Training Risk Reviews that are Automated"
+    human_goal: "Mature risk solutions and controls"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "AI Risk"
+    type: "New"
+    poc_analytics: "Kevin Bauer"
+    goal_tracking: "Goal"
+    definition: "Ship Minimal MSL Friction: % of Model Training Risk Reviews that are Automated"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: new_ship_checkpoint_compliance_tracking_metric_traffic_serv_75
+    metric_name: "[New] 
+[Ship] Checkpoint Compliance tracking metric — % traffic served by verifiably compliant checkpoint"
+    human_goal: "Mature risk solutions and controls
+ (Mature Metrics)"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "AI Risk"
+    type: "New"
+    poc_analytics: "Ning Lok"
+    goal_tracking: "Tracking"
+    definition: "Ship Checkpoint Compliance tracking metric — % traffic served by verifiably compliant checkpoint"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: new_ship_leading_metric_for_bioid_requirement_76
+    metric_name: "[New] 
+[Ship] Leading metric for BioID requirement"
+    human_goal: "Mature risk solutions and controls"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "AI Risk"
+    type: "New"
+    poc_analytics: "Jiaqi Guo"
+    goal_tracking: "Tracking"
+    definition: "Ship Leading metric for BioID requirement"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: risk_review_velocity_p80_shared_goal_w_mon_pg_77
+    metric_name: "Risk Review velocity p80 (shared goal w/ Mon PG)"
+    human_goal: "Accelerate and Scale Risk Decisions: Leverage AI & automation to make faster, calibrated risk decisions that enable product teams to move fast with appropriate risk mitigations."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Monetization Risk"
+    type: "New"
+    poc_analytics: "Hamish Russell"
+    goal_tracking: "Goal"
+    definition: "13BD SLA (p80) for all reviews from SIN Start/Submission to L1 complete"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: risk_review_velocity_avg_shared_goal_w_mon_pg_78
+    metric_name: "Risk Review velocity avg (shared goal w/ Mon PG)"
+    human_goal: "Accelerate and Scale Risk Decisions: Leverage AI & automation to make faster, calibrated risk decisions that enable product teams to move fast with appropriate risk mitigations."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Monetization Risk"
+    type: "New"
+    poc_analytics: "Hamish Russell"
+    goal_tracking: "Tracking"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: evolve_monrisk_knowledge_base_79
+    metric_name: "Evolve MonRisk Knowledge Base"
+    human_goal: "Accelerate and Scale Risk Decisions: Evolve the Knowledge Base into a self-maintaining, high-accuracy asset that enables high levels of AI-autonomy."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Monetization Risk"
+    type: "Ship Goal"
+    poc_analytics: "Sarah Sosiak"
+    goal_tracking: "Goal"
+    definition: "Ship KB V3 
+
+KB effectiveness. Likely:
+- Support [X] first class agents
+- [X]%+ of AI-evaluations of SINs do not miss major risks"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: requirements_min_bar_80
+    metric_name: "Requirements min bar"
+    human_goal: "Improve MonRisk Requirement quality"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Monetization Risk"
+    type: "Existing"
+    poc_analytics: "Guillaume Aubert"
+    goal_tracking: "Goal"
+    definition: ">95% Requirements meeting min bar (+5% from H1)"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4B
+      goal_title: "Ship AI-native requirements across all Risk Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: expand_monrisk_forest_81
+    metric_name: "Expand MonRisk Forest"
+    human_goal: "Ship MonRisk Forest (DT replacement)"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Monetization Risk"
+    type: "Ship Goal"
+    poc_analytics: "Daniel Harvey"
+    goal_tracking: "Goal"
+    definition: "Precision & recall TBD"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: deliver_remaining_controls_verifiers_in_ftco_scope_82
+    metric_name: "Deliver remaining controls/verifiers in FTCO scope"
+    human_goal: "Ship MonRisk controls/verifiers"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Monetization Risk"
+    type: "Ship Goal"
+    poc_analytics: "Dave Viner"
+    goal_tracking: "Goal"
+    definition: "Deliver remaining controls/verifiers in FTCO scope"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: 3pp_control_automation_83
+    metric_name: "3PP control automation"
+    human_goal: "Automate 3PP Manual Control Reviews"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Monetization Risk"
+    type: "Ship Goal"
+    poc_analytics: "Garrett Reid"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: potential_requirement_gaps_evaluated_84
+    metric_name: "Potential requirement gaps evaluated"
+    human_goal: "Improve Requirements Coverage with Legal"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Monetization Risk"
+    type: "Ship Goal"
+    poc_analytics: "Liz Keneski, Dave Viner, Guillaume Aubert"
+    goal_tracking: "Goal"
+    definition: "eview the first batch of 26 potential gaps identified by Legal, and determine whether they should be addressed by requirements in MonRisk vs remain novel risks in T&E vs be routed to a different Risk "
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4B
+      goal_title: "Ship AI-native requirements across all Risk Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: tbc_see_comment_86
+    metric_name: "TBC - see comment"
+    human_goal: "Make AI Risk Review agentic"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "AI Risk"
+    type: "New"
+    poc_analytics: "Zef RosnBrick"
+    goal_tracking: "Goal"
+    definition: "1. Ship AI-interpretable requirements
+2. Forest adoption. TBD Precision/recall targets met, decision tree retired 
+3. Ship AI novel-risk detection tool - scans code + product artifacts to flag novel r"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: tbc_see_comment_87
+    metric_name: "TBC - see comment"
+    human_goal: "Automate the AI Risk decision engine"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "AI Risk"
+    type: ""
+    poc_analytics: "Zef RosnBrick"
+    goal_tracking: "Goal"
+    definition: "1. Ship automated Triage (L0)
+3. Ship priority L1+ automation bets (AI-driven requirements + L1 auto-doc writer)
+3. [Tracking] Overall wall time (no regression, TBD #)
+4. [Tracking] # open cases + thr"
+    definition_status: ""
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: agent_interruptions_89
+    metric_name: "Agent Interruptions"
+    human_goal: "Hold the line on Control Intervention for AI Agent Sessions: Prevent regression of AI agent sessions that hit a control-related intervention, using a unified methodology across Privacy, Security, Data Warehouse, and Meta CLI, so we can credibly ident"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Agent Oversight"
+    type: "New"
+    poc_analytics: "Aman Mathur"
+    goal_tracking: "Goal"
+    definition: "Hold the line and monitor regressions of -  % traces with atleast 1 intervention from controls (privac security or DW based controls)  while monitoring new friction from additional controls being adde"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Finalized"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: interception_rate_90
+    metric_name: "Interception Rate"
+    human_goal: "Proactive Agent Privacy Detection & Prevention: Close the agent-oversight loop with an integrated detection-to-prevention flywheel — shifting from reactive firefighting to autonomously intercepting agent-related privacy SEVs before they reach product"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Agent Oversight"
+    type: "New"
+    poc_analytics: "Qinyue Jiang"
+    goal_tracking: "Goal"
+    definition: "The % of privacy SEVs that Agent Oversight intercepts — proactively surfaces or files via AURA (code scanning) or ACL detection. Reported at two scopes: all privacy SEVs (north star) and agent-related"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Pending"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4C
+      goal_title: "Harden controls and scale platform to keep pace with agent growth"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: agentic_review_share_91
+    metric_name: "Agentic Review Share"
+    human_goal: "Agentic review handles the majority of launches."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Mateen Saifyan"
+    goal_tracking: "Goal"
+    definition: "# Agentic Reviews Approved for Launch / # Reviews Approved for Launch"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "In progress"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: ship_92
+    metric_name: "Ship"
+    human_goal: "Classic LaMa is retired."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "Ship Goal"
+    poc_analytics: ""
+    goal_tracking: "Goal"
+    definition: "TSIA"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: tbd_93
+    metric_name: "TBD"
+    human_goal: "Product teams say the experience is faster, clearer, and less taxing than Classic LaMa."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: ""
+    poc_analytics: ""
+    goal_tracking: "Goal"
+    definition: "TBD"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "In progress"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: agentic_ai_resolution_rate_94
+    metric_name: "Agentic AI Resolution Rate"
+    human_goal: "Product teams experience fewer defects and need less support. AI answers most questions that remain."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Paul Matsiras"
+    goal_tracking: "Goal"
+    definition: "Reviews fully resolved by agentic AI / Total reviews eligible for agentic resolution"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "In progress"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: agentic_review_defect_rate_95
+    metric_name: "Agentic Review Defect Rate"
+    human_goal: "Product teams experience fewer defects and need less support. AI answers most questions that remain."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Paul Matsiras"
+    goal_tracking: "Goal"
+    definition: "Reviews w/ help cases / bugs / tickets / Total reviews [agentic]"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: tbd_96
+    metric_name: "TBD"
+    human_goal: "The most sensitive and important launches move swiftly, thanks to process and operational excellence."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "Existing"
+    poc_analytics: "Paul Matsiras"
+    goal_tracking: "Goal"
+    definition: "TBD"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: ""
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Pending"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: zero_question_review_rate_97
+    metric_name: "Zero Question Review Rate"
+    human_goal: "POs rarely need to answer questions, because agents gather and structure product facts automatically."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Melvin Smith Sam Bruce"
+    goal_tracking: "Goal"
+    definition: "# Reviews approved with no* questions / # Reviews approved [agentic]"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "In progress"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: questions_per_review_p90_98
+    metric_name: "Questions per Review (p90)"
+    human_goal: "POs rarely need to answer questions, because agents gather and structure product facts automatically."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Melvin Smith Sam Bruce"
+    goal_tracking: "Goal"
+    definition: "Number of questions per approved review (p90)"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "In progress"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: agentic_sin_rate_ratio_99
+    metric_name: "Agentic SIN Rate ratio"
+    human_goal: "Unnecessary manual reviews and missed risks are rare, because assessment agents are highly accurate.*"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Jonathan Zhao"
+    goal_tracking: "Goal"
+    definition: "SIN rate for agentic cohort / SIN rate for human-reviewed cohort"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "In progress"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: missed_risk_rate_100
+    metric_name: "Missed Risk Rate"
+    human_goal: "Unnecessary manual reviews and missed risks are rare, because assessment agents are highly accurate.*"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "Existing"
+    poc_analytics: "Rishabh Sharma (DS)"
+    goal_tracking: "Goal"
+    definition: "Percentage of audited reviews with missed risk (categories 4-6: requirement added). Formula: num_missed_risk / num_audits_complete"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Finalized"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: insufficient_evidence_rate_101
+    metric_name: "Insufficient Evidence Rate"
+    human_goal: "POs rarely submit evidence manually and insufficient evidence is rare, because agents do it for them.*"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "Existing"
+    poc_analytics: "Rishabh Sharma (DS)"
+    goal_tracking: "Goal"
+    definition: "Total review-RQ pairs with IE / Total review-RQ pairs in TA scope"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Finalized"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: manual_evidence_rate_requiring_direct_po_involvement_102
+    metric_name: "Manual Evidence* rate requiring direct PO involvement"
+    human_goal: "POs rarely submit evidence manually and insufficient evidence is rare, because agents do it for them.*"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Rishabh Sharma (DS)"
+    goal_tracking: "Goal"
+    definition: "# Reviews where a PO had to manually gather or verify evidence / # Review requiring manual evidencing"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: agentic_mad_103
+    metric_name: "Agentic %MAD"
+    human_goal: "The orchestrator works reliably end-to-end. Many reviews are triggered automatically."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Paul Matsiras"
+    goal_tracking: "Goal"
+    definition: "TBD"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: automatic_review_trigger_rate_104
+    metric_name: "Automatic Review Trigger Rate"
+    human_goal: "The orchestrator works reliably end-to-end. Many reviews are triggered automatically."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Yunyan Zhang"
+    goal_tracking: "Goal"
+    definition: "# Reviews Automatically Triggered / # Reviews Created [agentic]"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "In progress"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: in_prep_in_review_wall_time_105
+    metric_name: "In prep + in review wall-time"
+    human_goal: "Humans spend significantly less time finding facts and drafting docs for SINs and escalations, thanks to AI.*"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "Existing"
+    poc_analytics: "Karen Krieb"
+    goal_tracking: "Goal"
+    definition: "E2E wall time for In Prep + In Review"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Finalized"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: tbd_106
+    metric_name: "TBD"
+    human_goal: "We've reimagined escalations: Risk Strategists are leveraging AI to drive Escalations at a fraction of time."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Karen Krieb"
+    goal_tracking: "Goal"
+    definition: "TBD"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: audit_relabeling_rate_107
+    metric_name: "Audit relabeling rate"
+    human_goal: "Internal and external parties trust our audits to find and fix gaps. Every audit feeds agent improvements."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Rishabh Sharma (DS)"
+    goal_tracking: "Goal"
+    definition: "TBD"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: audit_completion_rate_within_sla_108
+    metric_name: "Audit Completion Rate within SLA"
+    human_goal: "Internal and external parties trust our audits to find and fix gaps. Every audit feeds agent improvements."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Review Systems & Platform"
+    type: "New"
+    poc_analytics: "Rishabh Sharma (DS)"
+    goal_tracking: "Goal"
+    definition: "# Audit w/in SLA / Total # of Audits"
+    definition_status: "In progress"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "In progress"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: specialized_risk_assessment_delivery_time_110
+    metric_name: "Specialized Risk Assessment Delivery Time"
+    human_goal: "A majority of our GRC specialized Risk Assessments are handled via automation"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "GRC Product Platform"
+    type: "New"
+    poc_analytics: "Ashirbad Ghosh"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Blocked"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Blocked"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Blocked"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: assessor_response_time_111
+    metric_name: "Assessor Response Time"
+    human_goal: "Most of the work required to respond to Assessor request is automated"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "GRC Product Platform"
+    type: "New"
+    poc_analytics: "Ashirbad Ghosh"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Blocked"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Blocked"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Blocked"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: control_onboarding_testing_time_112
+    metric_name: "Control Onboarding & Testing Time"
+    human_goal: "Drastically reduce the time required to onboard & test controls"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "GRC Product Platform"
+    type: "New"
+    poc_analytics: "Brandon Fuerst"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Blocked"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Blocked"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Blocked"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: task_eng_hours_savings_rate_113
+    metric_name: "Task Eng Hours Savings Rate"
+    human_goal: "Manual remediation is removed for ~79% of PZM Tasks (~26% of total Wave tasks)"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "GRC Product Platform"
+    type: "New"
+    poc_analytics: "Alex Irish"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Finalized"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: issue_closure_time_114
+    metric_name: "Issue Closure Time"
+    human_goal: "Incident & Issue management is mostly automated allowing us to resolve faster with less effort"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "GRC Product Platform"
+    type: "New"
+    poc_analytics: "Shuaimin Kang"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Blocked"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Blocked"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Blocked"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: quality_bar_assessment_115
+    metric_name: "Quality Bar Assessment"
+    human_goal: "Most (including all critical) AI systems pass the AI Fundamentals quality bar"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "GRC Product Platform"
+    type: "New"
+    poc_analytics: "Avi Varadarajulu"
+    goal_tracking: "Goal"
+    definition: ""
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Blocked"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
+  - id: agentifying_the_codebase_116
+    metric_name: "Agentifying the codebase"
+    human_goal: "Headline-Risk requirements (Tier-1) in-scope (with self-evidenced controls) have E2E Control Integrity tests."
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Agent Oversight"
+    type: "New"
+    poc_analytics: "Praveen Kodakandla"
+    goal_tracking: "Goal"
+    definition: "TBD"
+    definition_status: "Finalized"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: ""
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    values:
+      - date: "2026-07-21"
+        value: null
+        status: "Finalized"
+        source: "tracker_sheet_import"
+        comment: "Initial import, value TBD M360 later"
+
