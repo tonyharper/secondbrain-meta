@@ -2540,7 +2540,7 @@ KB effectiveness. Likely:
     goal_tracking: "Goal"
     definition: "# Agentic Reviews Approved for Launch / # Reviews Approved for Launch"
     definition_status: "In progress"
-    target: ""
+    target: "50%"
     tshirt_lift: ""
     operationalization_status: "In progress"
     m360_link: ""
@@ -2556,6 +2556,11 @@ KB effectiveness. Likely:
         status: "In progress"
         source: "tracker_sheet_import"
         comment: "Initial import, value TBD M360 later"
+      - date: "2026-07-27"
+        value: null
+        status: "Finalized – 50% aligned per Anastasia/Jeb"
+        source: "owner: Anastasia Kubinova / Jeb – confirmed 2026-07-27"
+        comment: "Target confirmed 50% – was ~50% proposed, now aligned"
 
   - id: ship_92
     metric_name: "Ship"
@@ -3161,7 +3166,7 @@ KB effectiveness. Likely:
     goal_tracking: "Goal"
     definition: ""
     definition_status: "Finalized"
-    target: ""
+    target: "80%"
     tshirt_lift: ""
     operationalization_status: "Blocked"
     m360_link: ""
@@ -3177,6 +3182,11 @@ KB effectiveness. Likely:
         status: "Finalized"
         source: "tracker_sheet_import"
         comment: "Initial import, value TBD M360 later"
+      - date: "2026-07-27"
+        value: null
+        status: "Finalized – 80% target confirmed per Anthony"
+        source: "owner: Anthony – confirmed 2026-07-27 80%"
+        comment: "Target confirmed 80% – was xx% placeholder for AI Fundamentals bar, 100% critical remains"
 
   - id: agentifying_the_codebase_116
     metric_name: "Agentifying the codebase"
@@ -3203,5 +3213,74 @@ KB effectiveness. Likely:
         value: null
         status: "Finalized"
         source: "tracker_sheet_import"
+      - date: "2026-07-27"
+        value: null
+        status: "Finalized – 50% aligned per Anastasia/Jeb"
+        source: "owner: Anastasia Kubinova / Jeb – confirmed 2026-07-27"
+        comment: "Target confirmed 50% – was ~50% proposed, now aligned"
         comment: "Initial import, value TBD M360 later"
 
+
+  - id: l1_rate_reduction_ai_risk_117
+    metric_name: "L1 Rate reduced by xx% (AI Risk)"
+    human_goal: "Risk experts handle more novel cases, faster – L1 Rate reduced by xx%"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "AI Risk"
+    type: "New"
+    poc_analytics: "Connie / AI Risk"
+    goal_tracking: "Goal"
+    definition: "L1 Rate reduced by xx% vs H1 baseline – part of 4A(3) Risk experts handle more novel cases faster – v3 placeholder Pending AI Risk target"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Added 2026-07-27 stub for blocked numeric target 4A(3)"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4A
+      goal_title: "Scale Risk Review with high quality across all Areas"
+    data_risk_mapping:
+      priority_id: ""
+      priority_name: ""
+      nsm: ""
+    nsm_rollup: ""
+    values:
+      - date: "2026-07-27"
+        value: null
+        status: "Blocked – target ETA TBD – Connie"
+        source: "user_blocked_targets_2026_07_27"
+        comment: "AI Risk setting target, ETA TBD – needs numeric target per v3 doc"
+
+  - id: preventable_attrition_lt_xx_percent_118
+    metric_name: "Preventable attrition <xx%"
+    human_goal: "Strengthen talent density and AI-native expertise – <xx% preventable attrition"
+    investment_priority: "4. Transform our processes for AI"
+    risk_group: "Risk Org"
+    type: "New"
+    poc_analytics: "Kaz / Kazuho Ozawa"
+    goal_tracking: "Goal"
+    definition: "<xx% preventable attrition – minimize cases where lack awareness or fail timely effective action – v3 placeholder 4G(2) – tracking awareness prevention metrics"
+    definition_status: "Pending"
+    target: ""
+    tshirt_lift: ""
+    operationalization_status: "Pending"
+    m360_link: ""
+    added_to_scorecard: "Added 2026-07-27 stub for blocked numeric target 4G(2)"
+    v3_mapping:
+      priority_id: P4
+      priority_name: "4. Transform our processes for AI"
+      goal_id: 4G
+      goal_title: "Strengthen talent density and AI-native expertise across Risk Org"
+    data_risk_mapping:
+      priority_id: ""
+      priority_name: ""
+      nsm: ""
+    nsm_rollup: ""
+    values:
+      - date: "2026-07-27"
+        value: null
+        status: "Blocked – follow up Kaz today"
+        source: "user_blocked_targets_2026_07_27"
+        comment: "Pending Kaz follow-up today – needs numeric target"

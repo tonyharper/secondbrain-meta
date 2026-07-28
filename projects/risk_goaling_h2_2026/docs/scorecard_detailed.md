@@ -1,8 +1,8 @@
 <!-- GENERATED from ../scorecard.yaml — do not hand-edit — regen via python generate_risk_scorecard.py -->
 # Risk H2 2026 Scorecard — Detailed Tracking
 
-_Last updated: 2026-07-21_
-_Source: scorecard.yaml (111 metrics)_
+_Last updated: 2026-07-28_
+_Source: scorecard.yaml (113 metrics)_
 
 Minimal fields per request: metric name, human goal, risk group, POC, goal/tracking, value at specific dates + M360 links (to be populated).
 
@@ -62,15 +62,16 @@ Minimal fields per request: metric name, human goal, risk group, POC, goal/track
 | TBC - see comment | Unblock priority AI roadmap initiatives and make cross-org strategic decisions to unlock or protect  | AI Risk | Zef RosnBrick |  |  |  | TBD | 3A |  |  |  |
 | AI Launch - Decision Risk Trade-Off: % AIR L1+ Decisions with high (residual) ri | Risk Org Priority #3: Unblock AI launches with informed Risk trade-offs | AI Risk | Melody (Interim), Ian (Interim) |  |  |  | TBD | 3B |  |  | Pending |
 | AI Launch - Decision Speed - % AIR White-Glove Product Critical Decisions within | Risk Org Priority #3: Unblock AI launches with informed Risk trade-offs | AI Risk | Jiaqi Guo | Goal |  |  | TBD | 3B |  |  | Pending |
+| L1 Rate reduced by xx% (AI Risk) | Risk experts handle more novel cases, faster – L1 Rate reduced by xx% | AI Risk | Connie / AI Risk | Goal |  |  | TBD | 4A |  |  | Pending |
 | TBC - see comment | Make AI Risk Review agentic | AI Risk | Zef RosnBrick | Goal |  |  | TBD | 4A |  |  |  |
 | TBC - see comment | Automate the AI Risk decision engine | AI Risk | Zef RosnBrick | Goal |  |  | TBD | 4A |  |  |  |
-| Agentifying the codebase | Headline-Risk requirements (Tier-1) in-scope (with self-evidenced controls) have E2E Control Integri | Agent Oversight | Praveen Kodakandla | Goal |  |  | TBD | 4A |  |  | Finalized |
+| Agentifying the codebase | Headline-Risk requirements (Tier-1) in-scope (with self-evidenced controls) have E2E Control Integri | Agent Oversight | Praveen Kodakandla | Goal | Finalized – 50% aligned per Anastasia/Jeb (2026-07-27) |  | TBD | 4A |  |  | Finalized |
 | % | Enable AI Risk Review so the company can move fast on novel-risk products and requirements without g | Data Risk | Sebastian Poehlmann | Goal |  |  | TBD | 4A | P4 | NSM4.1 | Pending |
 | Unnecessary SIN rate [TBD] | Enable AI Risk Review so the company can move fast on novel-risk products and requirements without g | Data Risk | Scott Murani | Goal |  |  | TBD | 4A | P4 |  | Pending |
 | Assessor Response Time | Most of the work required to respond to Assessor request is automated | GRC Product Platform | Ashirbad Ghosh | Goal |  |  | TBD | 4A |  |  | Blocked |
 | Control Onboarding & Testing Time | Drastically reduce the time required to onboard & test controls | GRC Product Platform | Brandon Fuerst | Goal |  |  | TBD | 4A |  |  | Blocked |
 | Issue Closure Time | Incident & Issue management is mostly automated allowing us to resolve faster with less effort | GRC Product Platform | Shuaimin Kang | Goal |  |  | TBD | 4A |  |  | Blocked |
-| Quality Bar Assessment | Most (including all critical) AI systems pass the AI Fundamentals quality bar | GRC Product Platform | Avi Varadarajulu | Goal |  |  | TBD | 4A |  |  | Finalized |
+| Quality Bar Assessment | Most (including all critical) AI systems pass the AI Fundamentals quality bar | GRC Product Platform | Avi Varadarajulu | Goal | Finalized – 80% target confirmed per Anthony (2026-07-27) | 80% | TBD | 4A |  |  | Finalized |
 | Specialized Risk Assessment Delivery Time | A majority of our GRC specialized Risk Assessments are handled via automation | GRC Product Platform | Ashirbad Ghosh | Goal |  |  | TBD | 4A |  |  | Blocked |
 | Task Eng Hours Savings Rate | Manual remediation is removed for ~79% of PZM Tasks (~26% of total Wave tasks) | GRC Product Platform | Alex Irish | Goal |  |  | TBD | 4A |  |  | Finalized |
 | Evolve MonRisk Knowledge Base | Accelerate and Scale Risk Decisions: Evolve the Knowledge Base into a self-maintaining, high-accurac | Monetization Risk | Sarah Sosiak | Goal |  |  | TBD | 4A |  |  | Finalized |
@@ -80,7 +81,7 @@ Minimal fields per request: metric name, human goal, risk group, POC, goal/track
 | Agentic %MAD | The orchestrator works reliably end-to-end. Many reviews are triggered automatically. | Risk Review Systems & Platform | Paul Matsiras | Goal |  |  | TBD | 4A |  |  | In progress |
 | Agentic AI Resolution Rate | Product teams experience fewer defects and need less support. AI answers most questions that remain. | Risk Review Systems & Platform | Paul Matsiras | Goal |  |  | TBD | 4A |  |  | In progress |
 | Agentic Review Defect Rate | Product teams experience fewer defects and need less support. AI answers most questions that remain. | Risk Review Systems & Platform | Paul Matsiras | Goal |  |  | TBD | 4A |  |  | In progress |
-| Agentic Review Share | Agentic review handles the majority of launches. | Risk Review Systems & Platform | Mateen Saifyan | Goal |  |  | TBD | 4A |  |  | In progress |
+| Agentic Review Share | Agentic review handles the majority of launches. | Risk Review Systems & Platform | Mateen Saifyan | Goal | Finalized – 50% aligned per Anastasia/Jeb (2026-07-27) | 50% | TBD | 4A |  |  | In progress |
 | Agentic SIN Rate ratio | Unnecessary manual reviews and missed risks are rare, because assessment agents are highly accurate. | Risk Review Systems & Platform | Jonathan Zhao | Goal |  |  | TBD | 4A |  |  | In progress |
 | Audit Completion Rate within SLA | Internal and external parties trust our audits to find and fix gaps. Every audit feeds agent improve | Risk Review Systems & Platform | Rishabh Sharma (DS) | Goal |  |  | TBD | 4A |  |  | In progress |
 | Audit relabeling rate | Internal and external parties trust our audits to find and fix gaps. Every audit feeds agent improve | Risk Review Systems & Platform | Rishabh Sharma (DS) | Goal |  |  | TBD | 4A |  |  | In progress |
@@ -116,6 +117,7 @@ Minimal fields per request: metric name, human goal, risk group, POC, goal/track
 | 90% of T&C requirements covered by self-evidencing controls | 2.2 Achieve broad coverage by automated, self-evidencing controls and risk identification | User Risk | Liz Keneski | Goal |  |  | TBD | 4C |  |  | Pending |
 | Ship critical partner commitments | 1.3 Ship the H2 Critical Path Deliverables the business depends on | User Risk | Alice Berthaux | Goal |  |  | TBD | 4C |  |  | Pending |
 | T&C Forest rollout to 100% | 2.2 Achieve broad coverage by automated, self-evidencing controls and risk identification | User Risk | Barnaby Cooper | Goal |  |  | TBD | 4C |  |  | Pending |
+| Preventable attrition <xx% | Strengthen talent density and AI-native expertise – <xx% preventable attrition | Risk Org | Kaz / Kazuho Ozawa | Goal |  |  | TBD | 4G |  |  | Pending |
 
 ## Value History Detail
 

@@ -1,8 +1,8 @@
 <!-- GENERATED from ../scorecard.yaml — do not hand-edit — regen via python generate_risk_scorecard.py -->
 # Risk H2 2026 Scorecard — Summary (paired with Goals v3 Doc)
 
-_Last updated: 2026-07-21_
-_Source: scorecard.yaml grouped by v3 Priority/Goal – 108 metrics_
+_Last updated: 2026-07-28_
+_Source: scorecard.yaml grouped by v3 Priority/Goal – 110 metrics_
 
 This simplified markdown is designed to pair with the Goals v3 doc (https://docs.google.com/document/d/1U9vrVFRO4A_jbi7QhhDbYdWv8n834gq3udR3M1KTjQQ) which holds static descriptions. This file holds live values + POCs + Risk Groups + M360 links.
 
@@ -154,15 +154,16 @@ _Topline: NSM4.1 % Minimal volume 48% goal 90% compliance automatically 2027, pl
 
 | Metric Name | Human Goal | Risk Group | POC | Goal/Tracking | Latest Value | Target | M360 | Def Status |
 |-------------|------------|------------|-----|---------------|--------------|--------|------|------------|
+| L1 Rate reduced by xx% (AI Risk) | Risk experts handle more novel cases, faster – L1 Rate reduced by xx% | AI Risk | Connie / AI Risk | Goal |  |  | TBD | Pending |
 | TBC - see comment | Make AI Risk Review agentic | AI Risk | Zef RosnBrick | Goal |  |  | TBD |  |
 | TBC - see comment | Automate the AI Risk decision engine | AI Risk | Zef RosnBrick | Goal |  |  | TBD |  |
-| Agentifying the codebase | Headline-Risk requirements (Tier-1) in-scope (with self-evidenced controls) have | Agent Oversight | Praveen Kodakandla | Goal |  |  | TBD | Finalized |
+| Agentifying the codebase | Headline-Risk requirements (Tier-1) in-scope (with self-evidenced controls) have | Agent Oversight | Praveen Kodakandla | Goal | Finalized – 50% aligned per Anastasia/Jeb (2026-07-27) |  | TBD | Finalized |
 | % | Enable AI Risk Review so the company can move fast on novel-risk products and re | Data Risk | Sebastian Poehlmann | Goal |  |  | TBD | Pending |
 | Unnecessary SIN rate [TBD] | Enable AI Risk Review so the company can move fast on novel-risk products and re | Data Risk | Scott Murani | Goal |  |  | TBD | Pending |
 | Assessor Response Time | Most of the work required to respond to Assessor request is automated | GRC Product Platform | Ashirbad Ghosh | Goal |  |  | TBD | Blocked |
 | Control Onboarding & Testing Time | Drastically reduce the time required to onboard & test controls | GRC Product Platform | Brandon Fuerst | Goal |  |  | TBD | Blocked |
 | Issue Closure Time | Incident & Issue management is mostly automated allowing us to resolve faster wi | GRC Product Platform | Shuaimin Kang | Goal |  |  | TBD | Blocked |
-| Quality Bar Assessment | Most (including all critical) AI systems pass the AI Fundamentals quality bar | GRC Product Platform | Avi Varadarajulu | Goal |  |  | TBD | Finalized |
+| Quality Bar Assessment | Most (including all critical) AI systems pass the AI Fundamentals quality bar | GRC Product Platform | Avi Varadarajulu | Goal | Finalized – 80% target confirmed per Anthony (2026-07-27) | 80% | TBD | Finalized |
 | Specialized Risk Assessment Delivery Time | A majority of our GRC specialized Risk Assessments are handled via automation | GRC Product Platform | Ashirbad Ghosh | Goal |  |  | TBD | Blocked |
 | Task Eng Hours Savings Rate | Manual remediation is removed for ~79% of PZM Tasks (~26% of total Wave tasks) | GRC Product Platform | Alex Irish | Goal |  |  | TBD | Finalized |
 | Evolve MonRisk Knowledge Base | Accelerate and Scale Risk Decisions: Evolve the Knowledge Base into a self-maint | Monetization Risk | Sarah Sosiak | Goal |  |  | TBD | Finalized |
@@ -172,7 +173,7 @@ _Topline: NSM4.1 % Minimal volume 48% goal 90% compliance automatically 2027, pl
 | Agentic %MAD | The orchestrator works reliably end-to-end. Many reviews are triggered automatic | Risk Review Systems & Platform | Paul Matsiras | Goal |  |  | TBD | In progress |
 | Agentic AI Resolution Rate | Product teams experience fewer defects and need less support. AI answers most qu | Risk Review Systems & Platform | Paul Matsiras | Goal |  |  | TBD | In progress |
 | Agentic Review Defect Rate | Product teams experience fewer defects and need less support. AI answers most qu | Risk Review Systems & Platform | Paul Matsiras | Goal |  |  | TBD | In progress |
-| Agentic Review Share | Agentic review handles the majority of launches. | Risk Review Systems & Platform | Mateen Saifyan | Goal |  |  | TBD | In progress |
+| Agentic Review Share | Agentic review handles the majority of launches. | Risk Review Systems & Platform | Mateen Saifyan | Goal | Finalized – 50% aligned per Anastasia/Jeb (2026-07-27) | 50% | TBD | In progress |
 | Agentic SIN Rate ratio | Unnecessary manual reviews and missed risks are rare, because assessment agents  | Risk Review Systems & Platform | Jonathan Zhao | Goal |  |  | TBD | In progress |
 | Audit Completion Rate within SLA | Internal and external parties trust our audits to find and fix gaps. Every audit | Risk Review Systems & Platform | Rishabh Sharma (DS) | Goal |  |  | TBD | In progress |
 | Audit relabeling rate | Internal and external parties trust our audits to find and fix gaps. Every audit | Risk Review Systems & Platform | Rishabh Sharma (DS) | Goal |  |  | TBD | In progress |
@@ -190,7 +191,7 @@ _Topline: NSM4.1 % Minimal volume 48% goal 90% compliance automatically 2027, pl
 | 90% of L1+ escalation risk options labelled | 2.3 Run Risk Review and Compliance Operations through Agentic Workflows with Con | User Risk | Barnaby Cooper | Goal |  |  | TBD |  |
 | Decrease external vendor spending by transitioning News labelling to AI | 2.3 Run Risk Review and Compliance Operations through Agentic Workflows with Con | User Risk | Mike Derksen | Goal |  |  | TBD |  |
 
-**Count:** 35 metrics | **Risk Groups:** AI Risk, Agent Oversight, Data Risk, GRC Product Platform, Monetization Risk, Risk Review Systems & Platform, User Risk 
+**Count:** 36 metrics | **Risk Groups:** AI Risk, Agent Oversight, Data Risk, GRC Product Platform, Monetization Risk, Risk Review Systems & Platform, User Risk 
 
 ---
 
@@ -228,6 +229,16 @@ _Topline: NSM4.1 % Minimal volume 48% goal 90% compliance automatically 2027, pl
 | T&C Forest rollout to 100% | 2.2 Achieve broad coverage by automated, self-evidencing controls and risk ident | User Risk | Barnaby Cooper | Goal |  |  | TBD | Pending |
 
 **Count:** 16 metrics | **Risk Groups:** AI Risk, Agent Oversight, Data Risk, Monetization Risk, User Risk 
+
+---
+
+### 4G – Strengthen talent density and AI-native expertise across Risk Org
+
+| Metric Name | Human Goal | Risk Group | POC | Goal/Tracking | Latest Value | Target | M360 | Def Status |
+|-------------|------------|------------|-----|---------------|--------------|--------|------|------------|
+| Preventable attrition <xx% | Strengthen talent density and AI-native expertise – <xx% preventable attrition | Risk Org | Kaz / Kazuho Ozawa | Goal |  |  | TBD | Pending |
+
+**Count:** 1 metrics | **Risk Groups:** Risk Org 
 
 ---
 
