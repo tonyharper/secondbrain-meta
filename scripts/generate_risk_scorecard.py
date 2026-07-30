@@ -375,19 +375,17 @@ def parse_yaml_simple(yaml_path):
         else:
             metric['data_risk_mapping'] = {}
 
-        # values – parse all date entries
+        # values – parse all date entries (robust to single entry and leading spaces)
         values = []
-        # find values block
         vals_match = re.search(r'values:\s*\n(.*)', block, flags=re.DOTALL)
         if vals_match:
             vals_text = vals_match.group(1)
-            # each entry starts with "      - date:"
-            entries = re.split(r'\n\s*- date:', vals_text)
-            # first split part before first date is empty
-            for entry in entries[1:]:
-                # entry contains ' "2026-07-21"\n        value: null\n...'
-                # prepend the date marker we split on
-                entry_full = '- date:' + entry
+            # Find all entries that start with optional spaces, dash, date:
+            # Using finditer to capture each entry block from "- date:" to next "- date:" or end
+            # Pattern captures from "- date:" up to next "- date:" (exclusive)
+            entry_pattern = re.compile(r'\s*- date:\s*.*?(?=\n\s*- date:|\Z)', re.DOTALL)
+            for em in entry_pattern.finditer(vals_text):
+                entry_full = em.group(0)
                 d_match = re.search(r'date:\s*\"?(.*?)\"?\s*\n', entry_full)
                 v_match = re.search(r'value:\s*\"?(.*?)\"?\s*\n', entry_full)
                 s_match = re.search(r'status:\s*\"?(.*?)\"?\s*\n', entry_full)
@@ -408,7 +406,8 @@ def parse_yaml_simple(yaml_path):
                     ve['source'] = src_match.group(1).strip().strip('"')
                 if comm_match:
                     ve['comment'] = comm_match.group(1).strip().strip('"')
-                values.append(ve)
+                if ve:
+                    values.append(ve)
         metric['values'] = values
         parsed_metrics.append(metric)
 

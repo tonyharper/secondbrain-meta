@@ -1,12 +1,13 @@
 # Shift Left — Tasks
 
 ## Active
-- [ ] Check in with Colin Glaes on prototype status, assess RTUP
-- [ ] Talk to Alice about diff-violation model
+- (none) — PAUSED 2026-07-27 per user review — focus on other things
 
 ## On Hold
-- [ ] Write forward plan — pending Colin check-in
+- [ ] Check in with Colin Glaes on prototype status, assess RTUP — PAUSED
+- [ ] Talk to Alice about diff-violation model — PAUSED
+- [ ] Write forward plan — pending Colin check-in — PAUSED
 
 ## Complete
-- (none)
+- (none) — paused, not closed
 

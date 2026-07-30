@@ -1,15 +1,16 @@
 # Shift Left — Overview
 
-_Last updated: 2026-07-19_
-_Source: _archive_v1_2026_07/projects/shift_left/CLAUDE.md_
+_Last updated: 2026-07-27_
 
 ## State
 
-Shifting privacy requirements into Dataswarm development environment via Claude skills. Active / Discovery phase as of Apr 2026 — needs check-in with Colin Glaes on RTUP prototype status.
+**PAUSED 2026-07-27** — per user review: need to focus on other things. Was Active / Discovery phase as of Apr 2026.
+
+Shifting privacy requirements into Dataswarm development environment via Claude skills. Was pending check-in with Colin Glaes on RTUP prototype status. Paused for now — keep for future when capacity frees.
 
 ## Overview
 
-Catch privacy issues at dev time (Dataswarm) vs downstream agent friction measured by FRAPS. Two ends of same problem.
+Catch privacy issues at dev time (Dataswarm) vs downstream agent friction measured by FRAPS. Two ends of same problem. Paused — no active work.
 
 ## Stakeholders
 

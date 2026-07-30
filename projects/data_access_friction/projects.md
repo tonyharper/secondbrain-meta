@@ -1,19 +1,17 @@
 # FRAPS — Tasks
 
-Migrated from _archive_v1_2026_07/tasks.md tagged data_access_friction — review for freshness.
-
 ## Active
-- [ ] Check Agent dimension proposal — bridge v0.5 to v1 (old task from Apr)
-- [ ] Artillery coverage comparison — hipster vs artillery F6, bpfjailer volume F3
-- [ ] ISE logging inventory review — ~25 enforcement sources
+- (none) — Transferred to Connie Lun 2026-07-27
 
 ## On Hold
-- [ ] Layoffs 5/20 — staffing picture affects all projects (archived note, likely resolved — verify)
+- (none)
 
 ## Complete
 - [x] FRAPS Dashboard v0.5 shipped — labeled "Security Controls Friction"
 - [x] F1-F7 taxonomy deployed
-
-## Old tasks requiring verification (from archive)
-
-Tasks were in root tasks.md with `data_access_friction` tag — re-triage on morning pull.
+- [x] Transferred to Connie Lun 2026-07-27 — Tony no longer measurement lead — close project per user review
+- [x] Check Agent dimension proposal — bridge v0.5 to v1 — transferred to Connie (was active Apr)
+- [x] Artillery coverage comparison — hipster vs artillery F6, bpfjailer volume F3 — transferred to Connie
+- [x] ISE logging inventory review — ~25 enforcement sources — transferred to Connie
+- [x] Layoffs 5/20 — staffing picture — verified resolved, archived
+- [x] Old tasks from archive root tasks.md tag data_access_friction — closed with transfer

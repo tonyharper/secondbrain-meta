@@ -967,11 +967,11 @@ Ship: Complete Meta Privacy Policy Semiannual Update and Annual Privacy Policy R
       goal_id: 2A
       goal_title: "Strengthen age assurance practices and advocacy via improved age classification, minimum age detection, readiness for AV"
     values:
-      - date: "2026-07-21"
+      - date: "2026-07-27"
         value: null
-        status: "Finalized"
-        source: "tracker_sheet_import"
-        comment: "Initial import, value TBD M360 later"
+        status: "Blocked – Youth setting targets – ETA 8/13 from Conor"
+        source: "owner: Conor Frailey – ETA 2026-08-13"
+        comment: "UK OSA >xx% O18 target ETA 8/13 – Youth setting targets"
 
   - id: regulatory_acceptance_of_multi_layered_approach_31
     metric_name: "Regulatory Acceptance of Multi-Layered Approach"
