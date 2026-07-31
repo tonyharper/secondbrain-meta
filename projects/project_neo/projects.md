@@ -1,6 +1,7 @@
 # Project Neo — Tasks
 
 ## Active
+- [ ] Review xAU growth impact doc ingested 2026-07-31 — Business Overview 1GA2Vs6q — Option 4 (acted-on + include business) + Option B event-driven rollout — ceiling +40M DAU / +240M MAU M3, DAU@2 222K, 3 shadows M1, IG proxy secondary — TLDR added to overview.md + detailed ingest docs/2026_07_31_growth_xau_impact.md — approve redefinition? pending Central Growth + FB App leads
 - [ ] Review 8 docs ingested 2026-07-27 — North Star Deck 16pLS0t, Canonical 1OKqJk 490KB, SteerCo Jul20 1-btnT4r, Data Model 1uFjRAGP, Meta Account Commitments 1Ewohc, Business Data Classification 1BbBd2V, Risk Assessment 1fWxp7bg, UIBC Understanding 1QJ1VkVp — TLDRs added to overview.md (Tier 1 only)
 - [ ] Business Data Criteria Decision — Option 1 page_id+admin_id vs Option 2 Professional mode only vs Option 3 drop — impacts XSU, Restricted, Deletion — owners Shashwat Gupta + Bunmi Ayeh Nalbantis — QBs for decision, need to align with Subrosa + BII team — affects Data Risk P0-P5 ladder (P2 Positions, P1 Robust Controls)
 - [ ] UIBC definition — shall we have UIBC distinct? — 866k assets (72% Biz only, 21% UIBC only, 7% both) — DST vs XSU vs Deletion inconsistent — need ground truth + quality measurement Q3 POC Gasser Abdelhamid + Harper Ma — affects User Data scope erosion risk

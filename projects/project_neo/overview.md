@@ -1,10 +1,10 @@
 # Project Neo — Overview
 
-_Last updated: 2026-07-27_
+_Last updated: 2026-07-31_
 
 ## State
 
-**Active — A/C PRIV — Tier 2/3 handling required — docs ingested 2026-07-27.** Facebook unifying 4 divergent profile types (Main, ProMode, Pages/AP+ and SOAPs) into single-owner profile with 3 modes Personal/Creator/Business (flag, not fork) like IG Pro. M1 Test Dec '26 / Global Q1 '27, M2 Opt-in Q2 '27 Forced Q3 '27, M3 Q4 '27+ large enterprise migration Pages sunset. Status Red per SteerCo Jul20 — 3 months to code complete, 56 BIS funded / 68+ BIS unfunded M1 +31+ M2/M3.
+**Active — A/C PRIV — Tier 2/3 handling required — docs ingested 2026-07-27 + xAU growth doc 2026-07-31.** Facebook unifying 4 divergent profile types (Main, ProMode, Pages/AP+ and SOAPs) into single-owner profile with 3 modes Personal/Creator/Business (flag, not fork) like IG Pro. M1 Test Dec '26 / Global Q1 '27, M2 Opt-in Q2 '27 Forced Q3 '27, M3 Q4 '27+ large enterprise migration Pages sunset. Status Red per SteerCo Jul20 — 3 months to code complete, 56 BIS funded / 68+ BIS unfunded M1 +31+ M2/M3. New: xAU redefinition proposal Option 4 (acted-on + include business) + Option B event-driven rollout — ceiling +40M DAU / +240M MAU at M3 phased, M1 growth from creator/biz modes (IG proxy 0→1.3M daily secondary).
 
 Plan of Record: **Option 1 — FB Neo will be included in Meta Account as profiles and subject to all Meta Account commitments** (SNA/LPA, AI Training Opt-Out, Data Combination CASD/XSU, Unlink SLA 24h). Pages previously out-of-scope as multi-owner business entities, but Neo single-owner breaks rationale. Option 2 (separate Professional section) not viable.
 
@@ -30,7 +30,7 @@ Key risk: User Data scope erosion by blurring user vs user-as-business (UIBC), B
 | Ivan Prikhach + Venessa Lobo + Yoonho Kim + Roxy Wang | Data Model | Logger + warehouse impact, DAU grain voice vs acting_account, dim_all_users refactor |
 | Oleksii Aleksandrov + Manush Patel + Harper Ma + Gasser Abdelhamid + Alex Kagan | UIBC / Actor annotation | UIBC understanding 866k assets (72% Business only, 21% UIBC only, 7% both), DST vs XSU vs Deletion consumption — Q3 roadmap |
 
-## Key Docs (link + TLDR only — no full copies for a/c priv) — 9 docs ingested 2026-07-27
+## Key Docs (link + TLDR only — no full copies for a/c priv) — 10 docs ingested 2026-07-27 + 2026-07-31
 
 | Name | Description |
 |------|-------------|
@@ -44,6 +44,7 @@ Key risk: User Data scope erosion by blurring user vs user-as-business (UIBC), B
 | [Risk Assessment — Project Neo (A/C Priv)](https://docs.google.com/document/d/1fWxp7bg_KLg6tSEQdPB4iz3yQzl4RpaN9HfYMbqzgl8/edit?tab=t.0#heading=h.dsyxla8boop) | Jul27 High Level Risk Assessment — Monetization -0.5% iRev temp + SNA -0.13%, User Data scope erosion, T&C high, Competition XSU 9wks CASD 5wks Unlink 2wks + GDPR biz linking XL 50-60 months, Deletion XL |
 | [UIBC Understanding 29 July](https://docs.google.com/document/d/1QJ1VkVpl8jwlwdETFPiYnlmzX_z5Bl9i7m8v6Ng_JLE/edit?tab=t.0) | 866,508 assets — 72% Biz only, 21% UIBC, 7% both — DST vs XSU vs Deletion inconsistent — Q3 POC Gasser/Harper Ma |
 | [DAP Benefit Assessment — private, Tier 3](https://www.internalfb.com/intern/staticdocs/mystuff/) | `private/project_neo/dap_note_for_eng_leadership_2026_07_27.md` — Tier 3 gitignored — grounded view: 0.7-2.1% kept under status quo, would only be lost if full ban (hypothetical not real, real is relax), 3.8% ceiling not expected, no owner, need backtest + Pages adjustment + precision |
+| [Growth xAU Impact — Business Overview](https://docs.google.com/document/d/1GA2Vs6qcaZ2OTbHbeua2hi16s-xgnN5BDOU1iGaM3Bo/edit?tab=t.avhr0j4vgxp5#heading=h.i1qmd0as0se4) | 2026-07-31 — Thasneem Farzana source, audience Central Growth (JAT, Amee) + FB App (Justin, Srivatsan, Lily) — proposes Option 4 (acted-on attribution + include business) + Option B event-driven rollout: M1 Dec26 10% test → M3 Q4 2027 full, phased not step, ceiling +40M DAU / +240M MAU (+43M/+208M upper), DAU@2 222K, M1 slow growth creator/biz modes IG proxy 0→1.3M daily secondary, FB SUMA pending IG proxy +31.5M MAU +2.2% Y1 — 3 shadows from M1: growth understanding (ALL AP+ artificial), experimentation (non-Neo users only), actor accounting (old def retained not deprecated) — impacts logging, experimentation (Roxy Wang PoC 3 options), FA hardlinks aligned Alex Schultz A/C Priv, demographics — detailed ingest `docs/2026_07_31_growth_xau_impact.md` |
 
 ## Open Threads — Data Risk implications
 
@@ -53,6 +54,7 @@ Key risk: User Data scope erosion by blurring user vs user-as-business (UIBC), B
 - [ ] Data Model grain shift — voice vs acting_account — dim_all_users refactor + shadow metrics M1-M3 via restricted macro + is_acting_account column — backfill coalesce logic error-prone — affects XSU checker POC and Deletion
 - [ ] Timeline risk — M1 Red, 68 BIS unfunded — stress-test workback + federation costs across PPGs
 - [ ] Link to H2 goaling and Q3 roadmap execution — tie to risk_data_ai_enablement Phase 2 (Semantic Models, Repo Context, Evals need update for new actor labels)
+- [ ] xAU redefinition decision — Option 4 acted-on + include business + Option B event-driven rollout recommended — pending approval Central Growth (JAT, Amee) + FB App (Justin, Srivatsan, Lily) — ceiling +40M DAU / +240M MAU phased M3, DAU@2 222K — 3 shadows from M1 (growth understanding ALL AP+ artificial, experimentation non-Neo-only, actor accounting old def retained) — impacts forecasting calibration, experimentation handling (PoC Roxy Wang 3 options: metrics-level, dimension-level all, ad hoc), FA hardlinks, logging, demographics — doc 1GA2Vs6q
 
 ## Key Metrics (Tier 1 only — actual numbers sensitive, store TLDR)
 
@@ -66,3 +68,6 @@ Key risk: User Data scope erosion by blurring user vs user-as-business (UIBC), B
 | UIBC/Business assets | 866,508 total | 72% Biz only, 21% UIBC only, 7% both | No precision/recall measurement yet — Q3 roadmap |
 | Eng cost — Biz Linking GDPR | 0 | 50-60 eng months XL unfunded | 100+ BP paths, L1 mid-Aug, need BSuite to build |
 | XSU/CASD/Unlink | 0 | 9wks / 5wks / 2wks | Risk team to bring Account Center commitments in scope for Neo |
+| xAU redefinition — new definition | 0 | +40M DAU / +240M MAU ceiling M3 (+43M/+208M upper) DAU@2 222K phased | Option 4 acted-on + include business, Option B event-driven rollout M1 Dec26 10% → M3 Q4 2027, shadows from M1 — per doc 1GA2Vs6q |
+| xAU redefinition — Option 3 drop impact | 0 | -6.3M DAU / -3.7M MAU if acted-on without business | Primary only active on AP+ not own profile |
+| Secondary creation IG proxy | 0 | 0→1.3M daily secondary, +31.5M MAU +2.2% Y1 | Proxy for FB SUMA — FB-specific pending |
